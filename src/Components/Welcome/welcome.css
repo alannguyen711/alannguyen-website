@@ -1,0 +1,22 @@
+.heading-and-bee {
+    display: flex;
+    flex-direction: row;
+}
+
+.heading {
+    text-align: left;
+    font-size: 3em;
+    border: 0;
+}
+
+.dashed-line {
+    height: 3px;
+}
+
+.description {
+    text-align: left;
+}
+
+.bullet-content {
+    text-align: left;
+}
