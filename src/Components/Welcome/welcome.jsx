@@ -10,16 +10,16 @@ function Welcome() {
   ];
 
   return (
-    <div>
+    <div className="section-container">
       <div className="heading-and-bee">
-        <p className="heading">welcome</p>
+        <div className="heading">welcome</div>
         <img
           src={Trail}
           alt="bee trail"
           className="dashed-line"
         />
       </div>
-      <p className="description">my name is alan nguyen. here are some things about me</p>
+      <div className="description">my name is alan nguyen. here are some things about me</div>
       <ul>
         {bullets.map((bullet) => (
           <li className="bullet-content">{bullet}</li>

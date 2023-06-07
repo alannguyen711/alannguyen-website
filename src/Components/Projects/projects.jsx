@@ -8,9 +8,9 @@ function Projects() {
   const projects = ['poop', 'your mom', 'butt'];
 
   return (
-    <div>
-      <p className="heading">projects</p>
-      <p className="description">these are some technical projects i did harharhar</p>
+    <div className="section-container">
+      <div className="heading">projects</div>
+      <div className="description">these are some technical projects i did harharhar</div>
       <div className="all-cards-container">
         {projects.map((project) => (
           <div className="single-card-container">

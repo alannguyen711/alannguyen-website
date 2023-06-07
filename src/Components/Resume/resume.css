@@ -1,0 +1,19 @@
+.heading {
+    text-align: left;
+    font-size: 3em;
+    border: 0;
+}
+
+.first-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.position-details {
+    flex-grow: 3;
+}
+
+.date-range {
+    flex-grow: 1;
+    text-align: right;
+}

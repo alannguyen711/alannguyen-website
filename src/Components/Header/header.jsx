@@ -7,7 +7,7 @@ function Header() {
     <div className="header-container">
       {labels.map((label) => (
         <div>
-          <p className="header-labels">{label}</p>
+          <div className="header-labels">{label}</div>
         </div>
       ))}
     </div>
