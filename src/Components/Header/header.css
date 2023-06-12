@@ -8,3 +8,8 @@
 .header-labels {
     text-align: left;
 }
+
+.header-labels:hover {
+    color: #F1AE02;
+    text-decoration: underline;
+  }

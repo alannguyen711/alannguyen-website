@@ -12,7 +12,7 @@ function Name() {
   return (
     <div className="section-container">
       <div style={styles.beeheader}>bees flying into a beehive</div>
-      <div className="name">alan nguyen</div>
+      <div className="name">Alan Nguyen</div>
     </div>
   );
 }

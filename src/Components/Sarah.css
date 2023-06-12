@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'PP Mori';
+    src: url('../Assets/Fonts/PPMori-SemiBold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PP Mori';
+    src: url('../Assets/Fonts/PPMori-Regular.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.entire-container-main {
+    font-family: 'PP Mori';
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bay-area-arrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.la {
+    padding-top: 8%;
+    padding-bottom: 7%;
+    font-size: 1.3em;
+    white-space: nowrap;
+}
+
+.bay-area {
+    font-size: 1.3em;
+    white-space: nowrap;
+}
+
+.arrow {
+    height: 0.75em;
+    width: auto;
+    margin-left: 1em;
+    margin-top: 0.25em;
+}
+
+.alan {
+    font-size: 7.1em;
+    margin-left: 0.5em;
+}
+
+.trail-bee {
+    height: auto;
+    justify-self: start;
+    margin-top: -1.5em;
+    margin-left: .4em;
+    width: 100%;
+    height: auto;
+}
+
+.alan-line {
+    display: flex;
+    flex-direction: row;
+    font-family: 'PPMori-Regular';
+}
+
+.nguyen-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.trail-only {
+    height: auto;
+    margin-top: -1em;
+    width: 100%;
+    height: auto;
+}
+
+.nguyen {
+    font-size: 7.1em;
+    padding-right: 12%;
+}
+
+.position-year {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.position {
+    font-size: 1.3em;
+    padding-bottom: 7%;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.year {
+    font-size: 1.3em;
+    padding-bottom: 12%;
+    text-align: right;
+    white-space: nowrap;
+}

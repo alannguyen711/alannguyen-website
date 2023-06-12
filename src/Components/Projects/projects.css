@@ -7,6 +7,8 @@
     text-align: left;
     font-size: 3em;
     border: 0;
+    color: #D9D9D9;
+    font-weight: 700;
 }
 
 .description {
@@ -28,6 +30,7 @@
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 18px;
 }
   
 .overlay {
@@ -40,7 +43,8 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: pink;
+    background-color: #FCD570;
+    border-radius: 18px;
 }
 
 .single-card-container:hover .overlay {

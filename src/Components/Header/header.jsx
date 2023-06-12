@@ -2,7 +2,7 @@ import React from 'react';
 import './header.css';
 
 function Header() {
-  const labels = ['me', 'welcome', 'projects', 'résumé', 'idk'];
+  const labels = ['Me', 'Welcome', 'Projects', 'Résumé', 'Idk'];
   return (
     <div className="header-container">
       {labels.map((label) => (

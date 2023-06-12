@@ -1,0 +1,26 @@
+.entire-container-header {
+    font-family: 'PP Mori';
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2.3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    justify-self: left;
+}
+
+.alan-logo {
+    width: 4em;
+    height: auto;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width: 42%
+}
