@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <SarahHeader />
-      {/* <Header /> */}
       <div className="section" />
       <Sarah />
+      <div className="section" />
     </div>
   );
 }

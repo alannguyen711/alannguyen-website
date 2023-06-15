@@ -9,9 +9,9 @@ function Sarah() {
     <div className="entire-container-main">
       <div className="alan-line">
         <div className="location">
-          <div className="la">Based in LA &</div>
+          <div className="la">BASED IN LA &</div>
           <div className="bay-area-arrow">
-            <div className="bay-area">Bay Area</div>
+            <div className="bay-area">BAY AREA</div>
             <img src={Arrow} alt="rightwards arrow" className="arrow" />
           </div>
         </div>
@@ -26,8 +26,8 @@ function Sarah() {
         </div>
         <div className="nguyen">NGUYEN</div>
         <div className="position-year">
-          <div className="position">Software Developer</div>
-          <div className="year">Senior at UCLA</div>
+          <div className="position">SOFTWARE DEVELOPER</div>
+          <div className="year">UCLA SENIOR</div>
         </div>
       </div>
     </div>
