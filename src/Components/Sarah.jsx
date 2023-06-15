@@ -25,11 +25,25 @@ function Sarah() {
           <img src={TrailOnly} alt="bee trail" className="trail-only" />
         </div>
         <div className="nguyen">NGUYEN</div>
-        <div className="position-year">
+        {/* <div className="position-year">
           <div className="position">SOFTWARE DEVELOPER</div>
           <div className="year">UCLA SENIOR</div>
+        </div> */}
+        <div className="position-year">
+          <div className="position">SOFTWARE DEVELOPER</div>
+          <div className="clickable">
+            @
+            {' '}
+            <a href="https://lablueprint.org/" target="_blank" className="inline" rel="noreferrer">LA BLUEPRINT</a>
+          </div>
+          <div className="clickable">
+            &
+            {' '}
+            <a href="https://www.aasc.ucla.edu/" target="_blank" className="inline" rel="noreferrer">UCLA AASC</a>
+          </div>
         </div>
       </div>
+      <div>Recent projects</div>
     </div>
   );
 }

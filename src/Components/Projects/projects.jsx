@@ -1,26 +1,36 @@
 import React from 'react';
-import Miley from '../../Assets/miley.png';
-import './projects.css';
-
-// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
+import './Projects.css';
+import Cards from '../Cards/Cards';
+import TCW from '../../Assets/TCW.png';
 
 function Projects() {
-  const projects = ['Poop', 'Your mom', 'Butt'];
-
+  const names = [
+    'TransCanWork',
+    'DopaMind',
+    'SVM Classification',
+    'MentorSEAS',
+  ];
+  const description = [
+    'Web Application',
+    'Hackathon Project',
+    'Machine Learning Classifier',
+    'Sorting Algorithm',
+  ];
+  const images = [
+    TCW,
+    TCW,
+    TCW,
+    TCW,
+  ];
   return (
-    <div className="section-container">
-      <div className="heading">Projects</div>
-      <div className="description">These are some technical projects i did harharhar</div>
-      <div className="all-cards-container">
-        {projects.map((project) => (
-          <div className="single-card-container">
-            <img src={Miley} alt="miley pic" className="image" />
-            <div className="overlay">
-              <div className="card-text">{project}</div>
-            </div>
-          </div>
-        ))}
-      </div>
+    <div className="entire-projects">
+      {names.map((name, index) => (
+        <Cards
+          image={images[index]}
+          name={name}
+          description={description[index]}
+        />
+      ))}
     </div>
   );
 }

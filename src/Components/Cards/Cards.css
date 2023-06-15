@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'PP Mori';
+    src: url('../../Assets/Fonts/PPMori-SemiBold.otf') format('truetype'); 
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PP Mori';
+    src: url('../../Assets/Fonts/PPMori-Regular.otf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.entire-card {
+    display: flex;
+    flex-direction: column;
+    font-family: 'PP Mori';
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5em;
+  transition: transform .2s;
+}
+
+.card-image:hover {
+  transform: scale(0.95);
+}
+
+.project-arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-bottom: 0.4em;
+}
+
+.arrow {
+    /* align-self: flex-end; */
+    align-items: center;
+}

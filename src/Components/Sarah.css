@@ -33,7 +33,7 @@
 
 .la {
     padding-top: 8%;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
     font-size: 1.3em;
     white-space: nowrap;
 }
@@ -92,18 +92,38 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding-bottom: 1%;
 }
 
 .position {
     font-size: 1.3em;
-    padding-bottom: 7%;
+    padding-bottom: 5%;
     text-align: right;
     white-space: nowrap;
 }
 
+.clickable a.inline {
+    text-decoration: none;
+    color: black;
+}
+
+.clickable a.inline:hover {
+    text-decoration: none;
+    color: #FFCE43;
+}
+
+
+.clickable {
+    font-size: 1.3em;
+    padding-bottom: 5%;
+    text-align: right;
+    white-space: nowrap;
+    color: black;
+}
+
 .year {
     font-size: 1.3em;
-    padding-bottom: 12%;
+    padding-bottom: 8%;
     text-align: right;
     white-space: nowrap;
 }
