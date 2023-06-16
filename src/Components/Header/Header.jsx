@@ -1,8 +1,8 @@
 import React from 'react';
-import './SarahHeader.css';
+import './Header.css';
 import alanLogo from '../../Assets/alanLogo.svg';
 
-function SarahHeader() {
+function Header() {
   return (
     <div className="entire-container-header">
       <div className="logo">
@@ -18,4 +18,4 @@ function SarahHeader() {
   );
 }
 
-export default SarahHeader;
+export default Header;

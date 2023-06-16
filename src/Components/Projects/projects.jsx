@@ -1,7 +1,10 @@
 import React from 'react';
 import './Projects.css';
 import Cards from '../Cards/Cards';
-import TCW from '../../Assets/TCW.png';
+import TCW from '../../Assets/CardImages/TCW.png';
+import DopaMind from '../../Assets/CardImages/dopamind.png';
+import JSB from '../../Assets/CardImages/jsb.png';
+import MentorSEAS from '../../Assets/CardImages/mentorSEAS.png';
 
 function Projects() {
   const names = [
@@ -18,9 +21,9 @@ function Projects() {
   ];
   const images = [
     TCW,
-    TCW,
-    TCW,
-    TCW,
+    DopaMind,
+    JSB,
+    MentorSEAS,
   ];
   return (
     <div className="entire-projects">

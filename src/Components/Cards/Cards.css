@@ -32,14 +32,20 @@
 .project-arrow {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     font-weight: 600;
     font-size: 1.4em;
     margin-bottom: 0.4em;
 }
 
-.arrow {
-    /* align-self: flex-end; */
-    align-items: center;
+.arrow-container {
+  display: flex;
+  text-align: left;
+}
+
+.card-arrow {
+  justify-self: flex-start;
+  width: 1.4em;
+  height: auto;
 }

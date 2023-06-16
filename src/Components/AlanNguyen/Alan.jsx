@@ -1,8 +1,8 @@
 import React from 'react';
-import './Sarah.css';
-import Arrow from '../Assets/arrow.svg';
-import TrailBee from '../Assets/trailBee.svg';
-import TrailOnly from '../Assets/trailOnly.svg';
+import './Alan.css';
+import Arrow from '../../Assets/arrow.svg';
+import TrailBee from '../../Assets/trailBee.svg';
+import TrailOnly from '../../Assets/trailOnly.svg';
 
 function Sarah() {
   return (
@@ -43,7 +43,7 @@ function Sarah() {
           </div>
         </div>
       </div>
-      <div>Recent projects</div>
+      <div className="recent-projects">MY RECENT PROJECTS</div>
     </div>
   );
 }

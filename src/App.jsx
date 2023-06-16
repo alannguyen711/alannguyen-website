@@ -1,17 +1,18 @@
 import React from 'react';
 import './App.css';
-import Sarah from './Components/Sarah';
-import SarahHeader from './Components/SarahHeader/SarahHeader';
+import Alan from './Components/AlanNguyen/Alan';
+import Header from './Components/Header/Header';
 import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
     <div className="App">
-      <SarahHeader />
+      <Header />
       <div className="section" />
-      <Sarah />
+      <Alan />
       <div className="section" />
       <Projects />
+      <div className="first-section" />
     </div>
   );
 }
