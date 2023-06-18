@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'PP Mori';
+    src: url('../Assets/Fonts/PPMori-SemiBold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PP Mori';
+    src: url('../Assets/Fonts/PPMori-Regular.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.entire-about-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-about {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.about-text {
+    margin-top: 2.5em;
+    flex-grow: 1;
+}
+
+.name-about {
+    font-family: 'PP Mori';
+    font-weight: 700;
+    font-size: 3.5em;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.position-about {
+    font-family: 'PP Mori';
+    font-size: 2em;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.honeycomb {
+    margin-top: .4em;
+    flex-grow: 1;
+    /* padding-left: 1em; */
+    object-fit: contain;
+    scale: .6;
+}
+
+.grey-line-about-top {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border-bottom: 1px solid #CECECE;
+}

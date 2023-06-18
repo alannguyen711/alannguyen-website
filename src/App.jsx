@@ -1,18 +1,21 @@
 import React from 'react';
+import {
+  BrowserRouter, Route, Routes,
+} from 'react-router-dom';
+import Home from './Pages/Home';
+import About from './Pages/About';
 import './App.css';
-import Alan from './Components/AlanNguyen/Alan';
-import Header from './Components/Header/Header';
-import Projects from './Components/Projects/Projects';
 
 function App() {
+  console.log('hey');
   return (
     <div className="App">
-      <Header />
-      <div className="section" />
-      <Alan />
-      <div className="section" />
-      <Projects />
-      <div className="first-section" />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

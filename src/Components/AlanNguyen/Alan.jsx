@@ -43,7 +43,8 @@ function Sarah() {
           </div>
         </div>
       </div>
-      <div className="recent-projects">MY RECENT PROJECTS</div>
+      <div className="grey-line" />
+      <div className="below-line" />
     </div>
   );
 }
