@@ -10,7 +10,7 @@ function ProjectPageCards({
     <div>
       <div className="individual-project">
         <div className="project-image-container">
-          <img src={image} alt="TCW project card" className="project-image" />
+          <img src={image} alt="project card" className="project-image" />
         </div>
         <div className="project-text">
           <div className="project-name">{name}</div>
