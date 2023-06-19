@@ -1,15 +1,17 @@
 import React from 'react';
 import './Alan.css';
-import Arrow from '../../Assets/arrow.svg';
-import TrailBee from '../../Assets/trailBee.svg';
-import TrailOnly from '../../Assets/trailOnly.svg';
-import YellowA from '../../Assets/yellowA.svg';
+import AlanComponent from '../../Assets/alan-component.svg';
+// import Arrow from '../../Assets/arrow.svg';
+// import TrailBee from '../../Assets/trailBee.svg';
+// import TrailOnly from '../../Assets/trailOnly.svg';
+// import YellowA from '../../Assets/yellowA.svg';
 
 function Alan() {
   return (
     <div className="entire-container-main">
       <div className="alan-contents">
-        <div className="alan-line">
+        <img src={AlanComponent} alt="Alan Nguyen, software developer" className="alan-component" />
+        {/* <div className="alan-line">
           <div className="location">
             <div className="la">BASED IN LA &</div>
             <div className="bay-area-arrow">
@@ -22,9 +24,9 @@ function Alan() {
               AL
               <span className="white-a">A</span>
               N
-            </div>
-            <img src={YellowA} alt="A filled with yellow" className="yellow-a" />
-          </div>
+            </div> */}
+        {/* <img src={YellowA} alt="A filled with yellow" className="yellow-a" /> */}
+        {/* </div>
           <div>
             <img src={TrailBee} alt="bee with trail" className="trail-bee" />
           </div>
@@ -46,8 +48,8 @@ function Alan() {
               {' '}
               <a href="https://www.aasc.ucla.edu/" target="_blank" className="inline" rel="noreferrer">UCLA AASC</a>
             </div>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
       <div className="grey-line-alan" />
     </div>

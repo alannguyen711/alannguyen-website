@@ -22,10 +22,15 @@
 }
 
 .alan-contents {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 7em;
+    display: flex;
+    align-items: center;
+    margin-top: 5em;
     margin-bottom: 13.5em;
+}
+
+.alan-component {
+    width: 87%;
+    margin: 0 auto;
 }
 
 .bay-area-arrow {
@@ -65,10 +70,10 @@
     font-family: 'PP Mori';
     margin-left: 0.5em;
 }
-
+/* 
 .white-a {
     color: white;
-}
+} */
 
 .yellow-a {
     height: auto;
