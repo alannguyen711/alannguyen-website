@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/alannguyen-website/static/css/main.3f592cbc.css",
+    "main.js": "/alannguyen-website/static/js/main.69d4e5f2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/alannguyen-website/static/js/787.28cb0dcd.chunk.js",
+    "static/media/miley.png": "/alannguyen-website/static/media/miley.69d88ea521fda45314c2.png",
+    "static/media/SVM.png": "/alannguyen-website/static/media/SVM.8733dbb820ff5ffa3a39.png",
+    "static/media/TCW.png": "/alannguyen-website/static/media/TCW.2e2df574d7eab1b76a77.png",
+    "static/media/DopaMind.png": "/alannguyen-website/static/media/DopaMind.4b072c5545502773aacf.png",
+    "static/media/AlanNguyen_Resume.pdf": "/alannguyen-website/static/media/AlanNguyen_Resume.d0a41e4c28ae2b562246.pdf",
+    "static/media/PPMori-SemiBold.otf": "/alannguyen-website/static/media/PPMori-SemiBold.336abfe2da355e4fa8dd.otf",
+    "static/media/PPMori-Regular.otf": "/alannguyen-website/static/media/PPMori-Regular.e647e964441593fd7fdf.otf",
+    "static/media/honeycomb.svg": "/alannguyen-website/static/media/honeycomb.07b4609ed5f72f778c4cf9df7146ab54.svg",
+    "static/media/trailBee.svg": "/alannguyen-website/static/media/trailBee.9f02245aab08237f47adc9e2e332e49c.svg",
+    "static/media/alanLogo.svg": "/alannguyen-website/static/media/alanLogo.bb1aeaa872570db2b821470590ec1643.svg",
+    "static/media/github.svg": "/alannguyen-website/static/media/github.aa057fafa611d61cb3d1c264717bc66e.svg",
+    "static/media/instagram.svg": "/alannguyen-website/static/media/instagram.91ca4a0b10774691ce7fc7de193fe68f.svg",
+    "index.html": "/alannguyen-website/index.html",
+    "static/media/linkedin.svg": "/alannguyen-website/static/media/linkedin.8e5f29e014a36a79bb1f775bb1a96bf0.svg",
+    "static/media/yellowA.svg": "/alannguyen-website/static/media/yellowA.96f6938f5dbc502e24cc10cbe6246288.svg",
+    "static/media/arrow.svg": "/alannguyen-website/static/media/arrow.a77c51f9213fbfd3ecccae6341633fff.svg",
+    "static/media/trailOnly.svg": "/alannguyen-website/static/media/trailOnly.2ac03dd676e73a11c9580a8456835d1d.svg",
+    "main.3f592cbc.css.map": "/alannguyen-website/static/css/main.3f592cbc.css.map",
+    "main.69d4e5f2.js.map": "/alannguyen-website/static/js/main.69d4e5f2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/alannguyen-website/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f592cbc.css",
+    "static/js/main.69d4e5f2.js"
+  ]
+}
