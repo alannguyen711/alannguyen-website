@@ -1,23 +1,21 @@
 import React from 'react';
 import './ProjectPageCards.css';
-import TCW from '../../Assets/ProjectImages/TCW.png';
+import propTypes from 'prop-types';
 import Arrow from '../../Assets/arrow.svg';
 
-function ProjectPageCards() {
+function ProjectPageCards({
+  name, type, description, image,
+}) {
   return (
     <div>
       <div className="individual-project">
         <div className="project-image-container">
-          <img src={TCW} alt="TCW project card" className="project-image" />
+          <img src={image} alt="TCW project card" className="project-image" />
         </div>
         <div className="project-text">
-          <div className="project-name">TransCanWork</div>
-          <div>WEB APPLICATION</div>
-          <div className="project-description">
-            An interactive employment roadmap for the 501(c)(3) nonprofit
-            TransCanWork, aiding transgender, gender-nonconforming and
-            intersex job seekers in their job search.
-          </div>
+          <div className="project-name">{name}</div>
+          <div className="project-type">{type}</div>
+          <div className="project-description">{description}</div>
           <div className="view-project-arrow">
             <div className="view-project">VIEW PROJECT</div>
             <div className="arrow-projects"><img src={Arrow} alt="right-pointing arrow" /></div>
@@ -27,5 +25,12 @@ function ProjectPageCards() {
     </div>
   );
 }
+
+ProjectPageCards.propTypes = {
+  name: propTypes.string.isRequired,
+  type: propTypes.string.isRequired,
+  description: propTypes.string.isRequired,
+  image: propTypes.node.isRequired,
+};
 
 export default ProjectPageCards;
