@@ -17,18 +17,8 @@
     margin: 0 auto;
 }
 
-.top-about {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-}
-
-.about-text {
-    margin-top: 2.5em;
-    flex-grow: 1;
-}
-
 .name-about {
+    padding-top: 1.5em;
     font-family: 'PP Mori';
     font-weight: 700;
     font-size: 3.5em;
@@ -41,18 +31,105 @@
     font-size: 2em;
     width: 90%;
     margin: 0 auto;
-  }
+}
 
-.honeycomb {
-    margin-top: .4em;
-    flex-grow: 1;
-    /* padding-left: 1em; */
-    object-fit: contain;
-    scale: .6;
+.bee-line {
+    display: flex;
+    margin-top: 3em;
+    height: 3.5em;
 }
 
 .grey-line-about-top {
-    margin-top: 3em;
-    margin-bottom: 3em;
-    border-bottom: 1px solid #CECECE;
+    border-top: 1px solid #CECECE;
+    width: 80%;
+    flex-basis: 70%;
+    height: 1em;
+}
+
+.honeycomb {
+    object-fit: contain;
+    position: relative;
+    flex-basis: 30%;
+}
+
+.honeycomb-image {
+    width: 13em;
+    height: auto;
+    padding-left: 6em;
+    position: relative;
+    top: -8.5em;
+}
+
+.paragraphs-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 0 auto;
+}
+
+.ten-percent {
+    flex-basis: 5%;
+}
+
+.paragraphs {
+    font-family: 'PP Mori';
+    font-size: 1.2em;
+    flex-basis: 75%;
+    line-height: 1.3;
+}
+
+.paragraphs-bold {
+    font-weight: 700;
+}
+
+.paragraph-enter {
+    height: 1.4em;
+}
+
+.testimonials {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: .3em;
+}
+
+.thirty-percent {
+    flex-basis: 20%;
+}
+
+.grey-line-about {
+    border-top: 1px solid #CECECE;
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+.contact-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    font-size: 1.5em;
+    font-weight: 700;
+    width: 10em;
+}
+
+.icons-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: auto;
+}
+
+.icons {
+    height: 1.5em;
+    padding-right: 4em;
+    padding-left: 4em;
+}
+
+.icons:hover {
+    transform: scale(1.14);
+    transition: transform .2s;;
 }
