@@ -1,5 +1,7 @@
 .entire-container-header {
     font-family: 'PP Mori';
+    font-size: 1em;
+    font-weight: 550;
     width: 80%;
     margin: 0 auto;
     padding-top: 1.7em;
@@ -7,7 +9,6 @@
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 1em;
-    /* border-bottom: 1px solid #CECECE; */
 }
 
 .logo {
@@ -24,5 +25,16 @@
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
-    width: 42%
+    width: 45%;
+}
+
+.page {
+    text-decoration: none;
+    color: black;
+}
+
+.page:hover {
+    color: #FFCE43;
+    /* text-decoration: underline #FFCE43; */
+    /* text-decoration-color: #FFCE43; */
 }

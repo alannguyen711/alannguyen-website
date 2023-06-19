@@ -7,7 +7,6 @@ import About from './Pages/About';
 import './App.css';
 
 function App() {
-  console.log('hey');
   return (
     <div className="App">
       <BrowserRouter>
