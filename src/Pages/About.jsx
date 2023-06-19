@@ -70,10 +70,6 @@ function About() {
         <div className="paragraph-enter" />
         <div className="paragraph-enter" />
         <div className="paragraph-enter" />
-        <div className="paragraph-enter" />
-        <div className="paragraph-enter" />
-        <div className="paragraph-enter" />
-        <div className="paragraph-enter" />
       </div>
     </div>
 

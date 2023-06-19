@@ -2,6 +2,11 @@
     margin-bottom: 23%;
   }
   
-  .section {
+.section {
     margin-bottom: 5em;
   }
+
+.project-cards {
+  width: 80%;
+  margin: 0 auto;
+}

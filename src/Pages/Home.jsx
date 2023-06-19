@@ -2,14 +2,16 @@ import React from 'react';
 import './Home.css';
 import Alan from '../Components/AlanNguyen/Alan';
 import Header from '../Components/Header/Header';
-import Projects from '../Components/Projects/Projects';
+import ProjectsHome from '../Components/ProjectsHome/ProjectsHome';
 
 function Home() {
   return (
     <div className="Home">
       <Header />
       <Alan />
-      <Projects />
+      <div className="project-cards">
+        <ProjectsHome />
+      </div>
       <div className="first-section" />
     </div>
   );

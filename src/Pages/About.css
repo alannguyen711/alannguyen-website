@@ -35,8 +35,8 @@
 
 .bee-line {
     display: flex;
-    margin-top: 3em;
-    height: 3.5em;
+    margin-top: 5em;
+    height: 4.5em;
 }
 
 .grey-line-about-top {
@@ -98,7 +98,7 @@
 
 .grey-line-about {
     border-top: 1px solid #CECECE;
-    margin-top: 4em;
+    margin-top: 5em;
     margin-bottom: 4em;
 }
 

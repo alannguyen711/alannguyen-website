@@ -11,7 +11,7 @@ function Header() {
         <Link to="/"><img src={alanLogo} alt="alan nguyen logo" className="alan-logo" /></Link>
       </div>
       <div className="pages">
-        <div className="page">PROJECTS</div>
+        <Link to="/projects" className="page">PROJECTS</Link>
         <div className="page">AFTERHOURS</div>
         <a href={Resume} target="_blank" rel="noopener noreferrer" className="page">RESUME</a>
         <Link to="/about" className="page">ABOUT</Link>
