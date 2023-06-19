@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   Route, Routes,
 } from 'react-router-dom';
@@ -9,6 +9,10 @@ import Afterhours from './Pages/Afterhours';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Alan Nguyen';
+  }, []);
+
   return (
     <div className="App">
       <Routes>
