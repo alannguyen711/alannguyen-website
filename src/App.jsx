@@ -5,6 +5,7 @@ import {
 import Home from './Pages/Home';
 import About from './Pages/About';
 import ProjectsPage from './Pages/ProjectsPage';
+import Afterhours from './Pages/Afterhours';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/afterhours" element={<Afterhours />} />
         </Routes>
       </BrowserRouter>
     </div>

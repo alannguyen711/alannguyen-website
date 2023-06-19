@@ -1,0 +1,7 @@
+.thing {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 2.5em;
+    font-size: 2em;
+}

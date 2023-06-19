@@ -12,7 +12,7 @@ function Header() {
       </div>
       <div className="pages">
         <Link to="/projects" className="page">PROJECTS</Link>
-        <div className="page">AFTERHOURS</div>
+        <Link to="/afterhours" className="page">AFTERHOURS</Link>
         <a href={Resume} target="_blank" rel="noopener noreferrer" className="page">RESUME</a>
         <Link to="/about" className="page">ABOUT</Link>
       </div>
