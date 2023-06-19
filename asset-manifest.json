@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alannguyen-website/static/css/main.3f592cbc.css",
-    "main.js": "/alannguyen-website/static/js/main.e695b773.js",
+    "main.js": "/alannguyen-website/static/js/main.becb8fb2.js",
     "static/js/787.28cb0dcd.chunk.js": "/alannguyen-website/static/js/787.28cb0dcd.chunk.js",
     "static/media/miley.png": "/alannguyen-website/static/media/miley.69d88ea521fda45314c2.png",
     "static/media/SVM.png": "/alannguyen-website/static/media/SVM.8733dbb820ff5ffa3a39.png",
@@ -21,11 +21,11 @@
     "static/media/arrow.svg": "/alannguyen-website/static/media/arrow.a77c51f9213fbfd3ecccae6341633fff.svg",
     "static/media/trailOnly.svg": "/alannguyen-website/static/media/trailOnly.2ac03dd676e73a11c9580a8456835d1d.svg",
     "main.3f592cbc.css.map": "/alannguyen-website/static/css/main.3f592cbc.css.map",
-    "main.e695b773.js.map": "/alannguyen-website/static/js/main.e695b773.js.map",
+    "main.becb8fb2.js.map": "/alannguyen-website/static/js/main.becb8fb2.js.map",
     "787.28cb0dcd.chunk.js.map": "/alannguyen-website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f592cbc.css",
-    "static/js/main.e695b773.js"
+    "static/js/main.becb8fb2.js"
   ]
 }
