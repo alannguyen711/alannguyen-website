@@ -29,11 +29,13 @@
 }
 
 .bay-area-arrow {
+    font-family: 'PP Mori';
     display: flex;
     flex-direction: row;
 }
 
 .location {
+    font-family: 'PP Mori';
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -60,6 +62,7 @@
 
 .alan {
     font-size: 6.6em;
+    font-family: 'PP Mori';
     margin-left: 0.5em;
 }
 
@@ -87,7 +90,7 @@
 .alan-line {
     display: flex;
     flex-direction: row;
-    font-family: 'PPMori-Regular';
+    font-family: 'PP Mori';
 }
 
 .nguyen-line {
