@@ -33,7 +33,7 @@ function ProjectsPage() {
     MentorSEAS,
   ];
   const projectRoutes = [
-    '/wip',
+    '/afterhours',
     '/wip',
     '/wip',
   ];
