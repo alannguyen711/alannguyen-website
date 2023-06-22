@@ -4,7 +4,7 @@ import propTypes from 'prop-types';
 import Arrow from '../../Assets/arrow.svg';
 
 function ProjectPageCards({
-  name, type, description, image,
+  name, type, description, image, route,
 }) {
   return (
     <div>
@@ -17,7 +17,7 @@ function ProjectPageCards({
           <div className="project-type">{type}</div>
           <div className="project-description">{description}</div>
           <div className="view-project-arrow">
-            <div className="view-project">VIEW PROJECT</div>
+            <a href={route} className="view-project">VIEW PROJECT</a>
             <div className="arrow-projects"><img src={Arrow} alt="right-pointing arrow" /></div>
           </div>
         </div>
@@ -31,6 +31,7 @@ ProjectPageCards.propTypes = {
   type: propTypes.string.isRequired,
   description: propTypes.string.isRequired,
   image: propTypes.node.isRequired,
+  route: propTypes.node.isRequired,
 };
 
 export default ProjectPageCards;

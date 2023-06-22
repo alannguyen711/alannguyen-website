@@ -27,12 +27,16 @@ function ProjectsPage() {
     DopaMind,
     SVM,
   ];
+  const projectRoutes = [
+    '/wip',
+    '/wip',
+    '/wip',
+  ];
 
   return (
     <div>
       <Header />
       <div className="entire-projects-page-container">
-        {/* <div className="name-about">PROJECTS</div> */}
         <div className="temp" />
         <div className="project-list">
           {projectNames.map((projectName, index) => (
@@ -42,6 +46,7 @@ function ProjectsPage() {
                 type={projectTypes[index]}
                 description={projectDescriptions[index]}
                 image={projectImages[index]}
+                route={projectRoutes[index]}
               />
               <div className="between-projects" />
 

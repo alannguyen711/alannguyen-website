@@ -30,12 +30,7 @@
     width: 100%;
     height: auto;
     object-fit: contain;
-    /* transition: transform .2s; */
 }
-
-/* .project-image:hover {
-    transform: scale(0.95);
-} */
 
 .project-text {
     display: flex;
@@ -66,6 +61,8 @@
 .view-project {
     font-weight: 700;
     margin-right: 2em;
+    text-decoration: none;
+    color: black;
 }
 
 .view-project:hover {

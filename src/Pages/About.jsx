@@ -60,8 +60,8 @@ function About() {
           <div className="contact">CONTACT</div>
           <div className="icons-row">
             <a href="https://www.linkedin.com/in/alan-nguyen-ucla/"><img src={LinkedIn} alt="LinkedIn icon" className="icons" /></a>
-            <a href="https://www.instagram.com/beyonce/"><img src={Instagram} alt="LinkedIn icon" className="icons" /></a>
-            <a href="https://github.com/alannguyen711"><img src={Github} alt="LinkedIn icon" className="icons" /></a>
+            <a href="https://www.instagram.com/beyonce/"><img src={Instagram} alt="Instagram icon" className="icons" /></a>
+            <a href="https://github.com/alannguyen711"><img src={Github} alt="Github icon" className="icons" /></a>
           </div>
         </div>
         <div className="paragraph-enter" />
