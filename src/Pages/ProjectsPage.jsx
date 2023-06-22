@@ -36,6 +36,7 @@ function ProjectsPage() {
     '/afterhours',
     '/wip',
     '/wip',
+    '/wip',
   ];
 
   return (
