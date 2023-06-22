@@ -14,10 +14,10 @@ function ProjectsHome() {
     'MentorSEAS',
   ];
   const description = [
-    'Web Application',
-    'Hackathon Project',
-    'Machine Learning Classifier',
-    'Sorting Algorithm',
+    'WEB APPLICATION',
+    'HACKATHON PROJECT',
+    'MACHINE LEARNING CLASSIFIER',
+    'SORTING ALGORITHM',
   ];
   const images = [
     TCW,
