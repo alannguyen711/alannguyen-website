@@ -58,6 +58,11 @@
     padding-left: 6em;
     position: relative;
     top: -8.5em;
+    transition: transform .2s;
+}
+
+.honeycomb-image:hover {
+    transform: scale(0.98);
 }
 
 .paragraphs-container {

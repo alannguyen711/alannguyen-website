@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProjectPageCards.css';
 import propTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import Arrow from '../../Assets/arrow.svg';
 
 function ProjectPageCards({
@@ -17,7 +18,7 @@ function ProjectPageCards({
           <div className="project-type">{type}</div>
           <div className="project-description">{description}</div>
           <div className="view-project-arrow">
-            <a href={route} className="view-project">VIEW PROJECT</a>
+            <Link to={route} className="view-project">VIEW PROJECT</Link>
             <div className="arrow-projects"><img src={Arrow} alt="right-pointing arrow" /></div>
           </div>
         </div>
