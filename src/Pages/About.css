@@ -53,7 +53,7 @@
 }
 
 .honeycomb-image {
-    width: 13em;
+    width: 19em;
     height: auto;
     padding-left: 6em;
     position: relative;
@@ -89,7 +89,13 @@
 .testimonials {
     font-size: 2em;
     font-weight: 700;
-    margin-bottom: .3em;
+    margin-bottom: 1.5em;
+}
+
+.testimonial-carousel {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
 }
 
 .thirty-percent {

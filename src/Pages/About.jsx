@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import Header from '../Components/Header/Header';
+import Testimonials from '../Components/Testimonials/Testimonials';
 import Honeycomb from '../Assets/honeycomb.svg';
 import LinkedIn from '../Assets/Icons/linkedin.svg';
 import Instagram from '../Assets/Icons/instagram.svg';
@@ -48,15 +49,11 @@ function About() {
             <div className="paragraph-enter" />
             <div className="paragraph-enter" />
             <div className="testimonials">TESTIMONIALS</div>
-            <div>
-              &quot;Alan is hot sexy and skinny.&quot; - Beyoncé
-            </div>
-            <div className="paragraph-enter" />
-            <div>
-              &quot;poop poop pee pee stinky butt&quot; - your mom
-            </div>
           </div>
           <div className="thirty-percent" />
+        </div>
+        <div className="testimonial-carousel">
+          <Testimonials />
         </div>
         <div className="grey-line-about" />
         <div className="contact-container">

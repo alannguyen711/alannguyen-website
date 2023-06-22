@@ -31,6 +31,11 @@
 .alan-component {
     width: 87%;
     margin: 0 auto;
+    transition: transform .2s;
+}
+
+.alan-component:hover {
+    transform: scale(0.98);
 }
 
 .bay-area-arrow {
