@@ -1,6 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import propTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import Arrow from '../../Assets/arrow.svg';
 
 function Cards({
@@ -8,7 +9,7 @@ function Cards({
 }) {
   return (
     <div>
-      <a href={route} className="card-link">
+      <Link to={route} className="card-link">
         <div className="entire-card">
           <div className="arrow-container">
             <img src={image} alt="TCW project card" className="card-image" />
@@ -22,7 +23,7 @@ function Cards({
           </div>
         </div>
 
-      </a>
+      </Link>
 
     </div>
 

@@ -38,7 +38,7 @@
     width: 55%;
     padding-left: 3em;
     font-family: 'PP Mori';
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .project-name {

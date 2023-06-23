@@ -83,6 +83,16 @@
     line-height: 1.3;
 }
 
+.a-tags {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.a-tags:hover {
+    color: #FFCE43;
+}
+
 .paragraphs-bold {
     font-weight: 700;
 }
