@@ -13,7 +13,7 @@ function ProjectsHome() {
     'SVM Classification',
     'MentorSEAS',
   ];
-  const description = [
+  const descriptions = [
     'WEB APPLICATION',
     'HACKATHON PROJECT',
     'MACHINE LEARNING CLASSIFIER',
@@ -25,13 +25,20 @@ function ProjectsHome() {
     JSB,
     MentorSEAS,
   ];
+  const routes = [
+    '/wip',
+    '/wip',
+    '/wip',
+    '/wip',
+  ];
   return (
     <div className="entire-projects">
       {names.map((name, index) => (
         <Cards
           image={images[index]}
           name={name}
-          description={description[index]}
+          description={descriptions[index]}
+          route={routes[index]}
         />
       ))}
     </div>
