@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a89a644e.css",
-    "main.js": "/static/js/main.d2b2a023.js",
+    "main.css": "/static/css/main.0f20fb89.css",
+    "main.js": "/static/js/main.1452d0e4.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/dopamind.png": "/static/media/dopamind.c548c56f9e0b674a457c.png",
     "static/media/DopaMind.png": "/static/media/DopaMind.bf3059ba6efc641e4cfd.png",
@@ -23,12 +23,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.8e5f29e014a36a79bb1f775bb1a96bf0.svg",
     "static/media/arrow.svg": "/static/media/arrow.a77c51f9213fbfd3ecccae6341633fff.svg",
-    "main.a89a644e.css.map": "/static/css/main.a89a644e.css.map",
-    "main.d2b2a023.js.map": "/static/js/main.d2b2a023.js.map",
+    "main.0f20fb89.css.map": "/static/css/main.0f20fb89.css.map",
+    "main.1452d0e4.js.map": "/static/js/main.1452d0e4.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a89a644e.css",
-    "static/js/main.d2b2a023.js"
+    "static/css/main.0f20fb89.css",
+    "static/js/main.1452d0e4.js"
   ]
 }
