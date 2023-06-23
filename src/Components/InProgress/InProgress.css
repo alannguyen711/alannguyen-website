@@ -5,3 +5,12 @@
     padding-top: 2.5em;
     font-size: 2em;
 }
+
+.thing-image {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 2.5em;
+    width: 25em;
+    height: auto;
+}
