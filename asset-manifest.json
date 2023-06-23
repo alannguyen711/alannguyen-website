@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f20fb89.css",
-    "main.js": "/static/js/main.1452d0e4.js",
+    "main.css": "/static/css/main.5afaae7f.css",
+    "main.js": "/static/js/main.e4245110.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/afterhours.png": "/static/media/afterhours.67dfc0e8eb2327f88c20.png",
     "static/media/dopamind.png": "/static/media/dopamind.c548c56f9e0b674a457c.png",
     "static/media/DopaMind.png": "/static/media/DopaMind.bf3059ba6efc641e4cfd.png",
     "static/media/TCW.png": "/static/media/TCW.74c38dd5b80f6c7c01e6.png",
     "static/media/jsb.png": "/static/media/jsb.d882503ff0f8717af13d.png",
-    "static/media/miley.png": "/static/media/miley.69d88ea521fda45314c2.png",
     "static/media/SVM.png": "/static/media/SVM.20245bc479f8bb887eda.png",
     "static/media/T2.png": "/static/media/T2.fb6de6972d9c7df1125c.png",
     "static/media/mentorSEAS.png": "/static/media/mentorSEAS.27fa7cdce2b66f1e8147.png",
@@ -23,12 +23,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.8e5f29e014a36a79bb1f775bb1a96bf0.svg",
     "static/media/arrow.svg": "/static/media/arrow.a77c51f9213fbfd3ecccae6341633fff.svg",
-    "main.0f20fb89.css.map": "/static/css/main.0f20fb89.css.map",
-    "main.1452d0e4.js.map": "/static/js/main.1452d0e4.js.map",
+    "main.5afaae7f.css.map": "/static/css/main.5afaae7f.css.map",
+    "main.e4245110.js.map": "/static/js/main.e4245110.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f20fb89.css",
-    "static/js/main.1452d0e4.js"
+    "static/css/main.5afaae7f.css",
+    "static/js/main.e4245110.js"
   ]
 }
