@@ -1,9 +1,41 @@
+@font-face {
+    font-family: 'PP Mori';
+    src: url('../../Assets/Fonts/PPMori-SemiBold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PP Mori';
+    src: url('../../Assets/Fonts/PPMori-Regular.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
 .thing {
     display: flex;
     margin: 0 auto;
     justify-content: center;
     padding-top: 2.5em;
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: 'PP Mori';
+}
+
+.things {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 2.5em;
+    font-size: 1.5em;
+    font-family: 'PP Mori';
+    text-decoration: none;
+    color: black;
+}
+
+.things:hover {
+    color: #FFCE43;
 }
 
 .thing-image {

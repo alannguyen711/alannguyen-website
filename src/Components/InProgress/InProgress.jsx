@@ -1,12 +1,14 @@
 import React from 'react';
 import './InProgress.css';
+import { Link } from 'react-router-dom';
 import Bee from '../../Assets/bee.png';
 
 function InProgress() {
   return (
     <div>
-      <div className="thing">i am still coding this, thank you for your patience</div>
+      <div className="thing">This page is still under construction, thank you for your patience!</div>
       <img src={Bee} alt="bee" className="thing-image" />
+      <Link to="/" className="things">BACK TO HOME PAGE</Link>
     </div>
   );
 }
