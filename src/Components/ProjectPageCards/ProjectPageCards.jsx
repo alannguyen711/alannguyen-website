@@ -18,7 +18,15 @@ function ProjectPageCards({
           <div className="project-type">{type}</div>
           <div className="project-description">{description}</div>
           <div className="view-project-arrow">
-            <Link to={route} className="view-project">VIEW PROJECT</Link>
+            <Link
+              to={route}
+              className="view-project"
+              onClick={() => {
+                window.scroll(0, 0);
+              }}
+            >
+              VIEW PROJECT
+            </Link>
             <div className="arrow-projects"><img src={Arrow} alt="right-pointing arrow" /></div>
           </div>
         </div>

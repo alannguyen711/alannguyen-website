@@ -26,7 +26,7 @@ function ProjectsHome() {
     MentorSEAS,
   ];
   const routes = [
-    '/wip',
+    '/tcw',
     '/wip',
     '/wip',
     '/wip',

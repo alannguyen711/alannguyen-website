@@ -9,7 +9,13 @@ function Cards({
 }) {
   return (
     <div>
-      <Link to={route} className="card-link">
+      <Link
+        to={route}
+        className="card-link"
+        onClick={() => {
+          window.scroll(0, 0);
+        }}
+      >
         <div className="entire-card">
           <div className="arrow-container">
             <img src={image} alt="TCW project card" className="card-image" />
