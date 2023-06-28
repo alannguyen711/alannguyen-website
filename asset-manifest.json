@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.314927a1.css",
-    "main.js": "/static/js/main.a548f318.js",
+    "main.css": "/static/css/main.e1b47fe7.css",
+    "main.js": "/static/js/main.d41ca3e7.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/afterhours.png": "/static/media/afterhours.fc9e7c98ec3bb00529ac.png",
     "static/media/dopamind.png": "/static/media/dopamind.c548c56f9e0b674a457c.png",
@@ -10,11 +10,13 @@
     "static/media/jsb.png": "/static/media/jsb.d882503ff0f8717af13d.png",
     "static/media/SVM.png": "/static/media/SVM.20245bc479f8bb887eda.png",
     "static/media/T2.png": "/static/media/T2.fb6de6972d9c7df1125c.png",
+    "static/media/TCWbanner.png": "/static/media/TCWbanner.031617cea31ea5e9e705.png",
     "static/media/mentorSEAS.png": "/static/media/mentorSEAS.27fa7cdce2b66f1e8147.png",
-    "static/media/AlanNguyen_Resume.pdf": "/static/media/AlanNguyen_Resume.4ef3d3343a3fe1859396.pdf",
+    "static/media/AlanNguyen_Resume.pdf": "/static/media/AlanNguyen_Resume.20a8a1a8fe9ce32866d2.pdf",
     "static/media/PPMori-SemiBold.otf": "/static/media/PPMori-SemiBold.336abfe2da355e4fa8dd.otf",
     "static/media/PPMori-Regular.otf": "/static/media/PPMori-Regular.e647e964441593fd7fdf.otf",
     "static/media/T1.png": "/static/media/T1.5ec9c16ee9dcd96a2100.png",
+    "static/media/TCWlogo.png": "/static/media/TCWlogo.02b21d672b8dd1a3a82d.png",
     "static/media/alan-component.svg": "/static/media/alan-component.05a892e224bc9724088f437b788dc3f8.svg",
     "static/media/honeycomb.svg": "/static/media/honeycomb.07b4609ed5f72f778c4cf9df7146ab54.svg",
     "static/media/alanLogo.svg": "/static/media/alanLogo.bb1aeaa872570db2b821470590ec1643.svg",
@@ -23,12 +25,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.8e5f29e014a36a79bb1f775bb1a96bf0.svg",
     "static/media/arrow.svg": "/static/media/arrow.a77c51f9213fbfd3ecccae6341633fff.svg",
-    "main.314927a1.css.map": "/static/css/main.314927a1.css.map",
-    "main.a548f318.js.map": "/static/js/main.a548f318.js.map",
+    "main.e1b47fe7.css.map": "/static/css/main.e1b47fe7.css.map",
+    "main.d41ca3e7.js.map": "/static/js/main.d41ca3e7.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.314927a1.css",
-    "static/js/main.a548f318.js"
+    "static/css/main.e1b47fe7.css",
+    "static/js/main.d41ca3e7.js"
   ]
 }
