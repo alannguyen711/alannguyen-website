@@ -21,7 +21,7 @@ function ProjectsPage() {
     'SORTING ALGORITHM',
   ];
   const projectDescriptions = [
-    'An interactive employment roadmap for the 501(c)(3) nonprofit TransCanWork, aiding transgender, gender-nonconforming and intersex job seekers in their job search.',
+    'An interactive employment roadmap for the 501(c)(3) nonprofit TransCanWork, aiding transgender, gender-nonconforming and intersex jobseekers in their job search.',
     'A comprehensive web app for students with ADHD, designed to help improve their focus and social skills by providing them with fun and engaging activities that are tailored to their unique needs.',
     'A Python program that employs a Support Vector Machine to classify mouse brain cells using single cell RNA-sequencing data.',
     'Utilizes the k-means algorithm to pair 1500 incoming engineering students with mentors, considering dozens of qualitative parameters to create axes for optimal pairings.',
@@ -33,7 +33,7 @@ function ProjectsPage() {
     MentorSEAS,
   ];
   const projectRoutes = [
-    '/wip',
+    '/tcw',
     '/wip',
     '/wip',
     '/wip',

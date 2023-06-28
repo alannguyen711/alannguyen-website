@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'PP Mori';
+    src: url('../Assets/Fonts/PPMori-SemiBold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'PP Mori';
+    src: url('../Assets/Fonts/PPMori-Regular.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.entire-TCW {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.tcw-banner {
+    width: 90%;
+    margin: 0 auto;
+    justify-self: center;
+    display: flex;
+    padding-top: 1.5em;
+    padding-bottom: 4em;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.project-basics {
+    font-family: 'PP Mori';
+    flex-basis: 50%;
+}
+
+.tcw-title {
+    font-family: 'PP Mori';
+    font-size: 2.3em;
+    font-weight: 600;
+
+}
+
+.tcw-type {
+    font-family: 'PP Mori';
+    font-size: 1.4em;
+    margin-bottom: 0.7em;
+}
+
+.tcw-logo {
+    width: 4em;
+}
+
+.top-pairs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 50%;
+    padding-top: .5em;
+    font-family: 'PP Mori';
+}
+
+.top-pair {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-category {
+    flex-basis: 50%;
+    font-weight: 600;
+}
+
+.top-answer {
+    flex-basis: 50%
+}
+
+.tcw-grey-line {
+    border-top: 1px solid #CECECE;
+    margin-top: 7em;
+    height: 7em;
+}
+
+.tcw-text-section {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'PP Mori';
+}
+
+.tcw-section-title {
+    font-weight: 600;
+    font-size: 2.3em;
+    padding-bottom: 1.5em;
+}
+
+.paragraph-title {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.paragraph-content {
+    font-size: 1em;
+}
+
+.paragraph-break {
+    height: 2.5em;
+}
+
+.tcw-bottom {
+    height: 7em;
+}

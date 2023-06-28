@@ -35,8 +35,8 @@ function About() {
               I’m currently the developer lead for the 501(c)(3) nonprofit
               <a href="https://transcanwork.org/about-us" className="a-tags"> TransCanWork </a>
               and a frontend developer for UCLA’s
-              <a href="https://www.aasc.ucla.edu/" className="a-tags"> Asian American Studies Center. </a>
-              I’m excited to be creating applications that uplift transgender, gender-diverse
+              <a href="https://www.aasc.ucla.edu/" className="a-tags"> Asian American Studies Center</a>
+              . I’m excited to be creating applications that uplift transgender, gender-diverse
               and intersex jobseekers and deepen the public understanding of Asian American
               and Pacific Islander lives.
             </div>
