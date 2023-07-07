@@ -1,13 +1,13 @@
-@font-face {
-    font-family: 'PP Mori';
-    src: url('../Assets/Fonts/PPMori-SemiBold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+  @font-face {
+    font-family: 'Circular';
+    src: url('../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'PP Mori';
-    src: url('../Assets/Fonts/PPMori-Regular.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-family: 'Circular';
+    src: url('../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: normal;
     font-style: normal;
   }
@@ -19,7 +19,7 @@
 
 .name-about {
     padding-top: 1.5em;
-    font-family: 'PP Mori';
+    font-family: 'Circular';
     font-weight: 700;
     font-size: 3.5em;
     width: 90%;
@@ -27,7 +27,7 @@
   }
 
 .position-about {
-    font-family: 'PP Mori';
+    font-family: 'Circular';
     font-size: 2em;
     width: 90%;
     margin: 0 auto;
@@ -77,10 +77,11 @@
 }
 
 .paragraphs {
-    font-family: 'PP Mori';
+    font-family: 'Circular';
     font-size: 1.2em;
     flex-basis: 75%;
     line-height: 1.3;
+    font-weight: 100;
 }
 
 .a-tags {
@@ -105,6 +106,7 @@
     font-size: 2em;
     font-weight: 700;
     margin-bottom: 1.5em;
+    font-family: 'Circular';
 }
 
 .testimonial-carousel {

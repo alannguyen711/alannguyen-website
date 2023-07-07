@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'PP Mori';
-    src: url('../../Assets/Fonts/PPMori-SemiBold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-family: 'Circular';
+    src: url('../../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'PP Mori';
-    src: url('../../Assets/Fonts/PPMori-Regular.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-family: 'Circular';
+    src: url('../../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: normal;
     font-style: normal;
   }
@@ -20,7 +20,7 @@
     justify-content: center;
     padding-top: 2.5em;
     font-size: 1.5em;
-    font-family: 'PP Mori';
+    font-family: 'Circular';
 }
 
 .things {
@@ -29,7 +29,7 @@
     justify-content: center;
     padding-top: 2.5em;
     font-size: 1.5em;
-    font-family: 'PP Mori';
+    font-family: 'Circular';
     text-decoration: none;
     color: black;
 }

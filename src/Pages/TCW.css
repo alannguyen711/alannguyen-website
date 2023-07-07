@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'PP Mori';
-    src: url('../Assets/Fonts/PPMori-SemiBold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-family: 'Circular';
+    src: url('../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'PP Mori';
-    src: url('../Assets/Fonts/PPMori-Regular.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-family: 'Circular';
+    src: url('../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: normal;
     font-style: normal;
   }
@@ -34,19 +34,19 @@
 }
 
 .project-basics {
-    font-family: 'PP Mori';
+    font-family: 'Circular';
     flex-basis: 50%;
 }
 
 .tcw-title {
-    font-family: 'PP Mori';
+    font-family: 'Circular';
     font-size: 2.3em;
     font-weight: 600;
 
 }
 
 .tcw-type {
-    font-family: 'PP Mori';
+    font-family: 'Circular';
     font-size: 1.4em;
     margin-bottom: 0.7em;
 }
@@ -61,7 +61,7 @@
     justify-content: space-between;
     flex-basis: 50%;
     padding-top: .5em;
-    font-family: 'PP Mori';
+    font-family: 'Circular';
 }
 
 .top-pair {
@@ -87,7 +87,7 @@
 .tcw-text-section {
     width: 90%;
     margin: 0 auto;
-    font-family: 'PP Mori';
+    font-family: 'Circular';
 }
 
 .tcw-section-title {

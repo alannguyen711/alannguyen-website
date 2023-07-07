@@ -1,7 +1,20 @@
+@font-face {
+    font-family: 'Circular';
+    src: url('../../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Circular';
+    src: url('../../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+
 .entire-container-header {
-    font-family: 'PP Mori';
+    font-family: 'Circular';
     font-size: 1em;
-    font-weight: 550;
     width: 80%;
     margin: 0 auto;
     padding-top: 1.7em;
@@ -25,7 +38,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
-    width: 45%;
+    width: 35%;
 }
 
 .page {

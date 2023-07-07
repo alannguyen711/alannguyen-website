@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'PP Mori';
-    src: url('../../Assets/Fonts/PPMori-SemiBold.otf') format('truetype'); 
+    font-family: 'Circular';
+    src: url('../../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'PP Mori';
-    src: url('../../Assets/Fonts/PPMori-Regular.otf') format('truetype'); 
+    font-family: 'Circular';
+    src: url('../../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: normal;
     font-style: normal;
   }
@@ -37,8 +37,7 @@
     flex-direction: column;
     width: 55%;
     padding-left: 3em;
-    font-family: 'PP Mori';
-    /* justify-content: center; */
+    font-family: 'Circular';
 }
 
 .project-name {

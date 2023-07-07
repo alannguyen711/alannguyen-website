@@ -11,10 +11,10 @@ function Header() {
         <Link to="/"><img src={alanLogo} alt="alan nguyen logo" className="alan-logo" /></Link>
       </div>
       <div className="pages">
-        <Link to="/projects" className="page">PROJECTS</Link>
-        <Link to="/afterhours" className="page">AFTERHOURS</Link>
-        <a href={Resume} target="_blank" rel="noopener noreferrer" className="page">RESUME</a>
-        <Link to="/about" className="page">ABOUT</Link>
+        <Link to="/projects" className="page">Projects</Link>
+        <Link to="/afterhours" className="page">Afterhours</Link>
+        <a href={Resume} target="_blank" rel="noopener noreferrer" className="page">Resume</a>
+        <Link to="/about" className="page">About</Link>
       </div>
     </div>
   );

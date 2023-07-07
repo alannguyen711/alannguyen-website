@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'PP Mori';
-    src: url('../../Assets/Fonts/PPMori-SemiBold.otf') format('truetype'); 
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'PP Mori';
-    src: url('../../Assets/Fonts/PPMori-Regular.otf') format('truetype'); 
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'Circular';
+  src: url('../../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('../../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
 
   a.card-link {
     text-decoration: none;
@@ -19,7 +19,7 @@
 .entire-card {
     display: flex;
     flex-direction: column;
-    font-family: 'PP Mori';
+    font-family: 'Circular';
     color: black;
     text-decoration-color: none;
     transition: transform .2s;
