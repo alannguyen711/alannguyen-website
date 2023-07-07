@@ -1,6 +1,8 @@
 import React from 'react';
 import './TCW.css';
 import Header from '../Components/Header/Header';
+import TCWProfilePage from '../Assets/Screens/TCWProfilePage.png';
+import TCWHomePages from '../Assets/Screens/TCWHomePages.png';
 import Banner from '../Assets/Banners/TCWbanner.png';
 import Logo from '../Assets/Logos/TCWlogo.png';
 
@@ -67,6 +69,8 @@ function TCW() {
             the query, and made an API call to pull all the jobseekers from Firebase.
           </div>
           <div className="paragraph-break" />
+          <img src={TCWProfilePage} alt="TCW Profile Page" className="tcw-profile-page" />
+          <div className="paragraph-break" />
           <div className="paragraph-title">PROFILE PAGE</div>
           <div className="paragraph-content">
             To create a profile page with selected editable fields, I made an API call to retrieve
@@ -76,13 +80,6 @@ function TCW() {
             the users’ role to display the appropriate information.
           </div>
           <div className="paragraph-break" />
-          <div className="paragraph-title">HOME PAGES</div>
-          <div className="paragraph-content">
-            The home page links to several other components including pages, training programs,
-            internships, job fairs and the central roadmap. I coded and styled these pages,
-            which save data to our Firebase backend.
-          </div>
-          <div className="paragraph-break" />
           <div className="paragraph-title">ASSESSMENT PAGE</div>
           <div className="paragraph-content">
             When jobseekers are first onboarded to TransCanWork, they fill out an assessment that
@@ -90,6 +87,15 @@ function TCW() {
             methods of contact, past occupations, degrees acquired and hard/soft skills. I
             implemented the page that allows users to input all this information and successfully
             instates their profile.
+          </div>
+          <div className="paragraph-break" />
+          <img src={TCWHomePages} alt="TCW Home Pages" className="tcw-home-pages" />
+          <div className="paragraph-break" />
+          <div className="paragraph-title">HOME PAGES</div>
+          <div className="paragraph-content">
+            The home page links to several other components including pages, training programs,
+            internships, job fairs and the central roadmap. I coded and styled these pages,
+            which save data to our Firebase backend.
           </div>
         </div>
         <div className="tcw-bottom" />

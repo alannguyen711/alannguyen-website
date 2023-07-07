@@ -109,6 +109,18 @@
     height: 2.5em;
 }
 
+.tcw-profile-page {
+    margin: 0 auto;
+    display: flex;
+    width: 50%;
+}
+
+.tcw-home-pages {
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+}
+
 .tcw-bottom {
     height: 7em;
 }

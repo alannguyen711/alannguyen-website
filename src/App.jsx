@@ -8,6 +8,7 @@ import ProjectsPage from './Pages/ProjectsPage';
 import Afterhours from './Pages/Afterhours';
 import WIP from './Pages/WIP';
 import TCW from './Pages/TCW';
+import DopaMind from './Pages/DopaMind';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/afterhours" element={<Afterhours />} />
         <Route path="/wip" element={<WIP />} />
         <Route path="/tcw" element={<TCW />} />
+        <Route path="/dopamind" element={<DopaMind />} />
       </Routes>
     </div>
   );
