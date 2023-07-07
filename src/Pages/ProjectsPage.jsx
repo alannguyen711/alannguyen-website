@@ -34,8 +34,8 @@ function ProjectsPage() {
   ];
   const projectRoutes = [
     '/tcw',
-    '/wip',
-    '/wip',
+    '/dopamind',
+    '/svm',
     '/wip',
   ];
 

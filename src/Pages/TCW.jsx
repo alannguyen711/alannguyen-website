@@ -3,8 +3,8 @@ import './TCW.css';
 import Header from '../Components/Header/Header';
 import TCWProfilePage from '../Assets/Screens/TCWProfilePage.png';
 import TCWHomePages from '../Assets/Screens/TCWHomePages.png';
-import Banner from '../Assets/Banners/TCWbanner.png';
-import Logo from '../Assets/Logos/TCWlogo.png';
+import Banner from '../Assets/Banners/TCWBanner.png';
+import Logo from '../Assets/Logos/TCWLogo.png';
 
 function TCW() {
   return (

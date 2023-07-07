@@ -27,8 +27,8 @@ function ProjectsHome() {
   ];
   const routes = [
     '/tcw',
-    '/wip',
-    '/wip',
+    '/dopamind',
+    '/svm',
     '/wip',
   ];
   return (
