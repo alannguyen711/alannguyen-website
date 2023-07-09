@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.05c7f0bb.css",
-    "main.js": "/static/js/main.a02583ce.js",
+    "main.css": "/static/css/main.d510f6c4.css",
+    "main.js": "/static/js/main.d6cb3bea.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/afterhours.png": "/static/media/afterhours.4294b9fca45ebd398305.png",
     "static/media/dopamind.png": "/static/media/dopamind.c548c56f9e0b674a457c.png",
     "static/media/DopaMind.png": "/static/media/DopaMind.bf3059ba6efc641e4cfd.png",
     "static/media/DopaMindBanner.png": "/static/media/DopaMindBanner.2d070e69b04b797cc18a.png",
+    "static/media/SVMPoster.png": "/static/media/SVMPoster.7e035a5de8303a9773ff.png",
     "static/media/TCW.png": "/static/media/TCW.74c38dd5b80f6c7c01e6.png",
+    "static/media/DopaMindStudySpace.png": "/static/media/DopaMindStudySpace.654931b8b795f58c3630.png",
     "static/media/jsb.png": "/static/media/jsb.d882503ff0f8717af13d.png",
+    "static/media/DopaMindGames.png": "/static/media/DopaMindGames.42be6017b0394aa00bb3.png",
+    "static/media/DopaMindTranscribble.png": "/static/media/DopaMindTranscribble.c7afee7731aaf459b8a2.png",
+    "static/media/DopaMindResources.png": "/static/media/DopaMindResources.c64678aaed7b628dfce8.png",
     "static/media/SVM.png": "/static/media/SVM.20245bc479f8bb887eda.png",
     "static/media/SVMBanner.png": "/static/media/SVMBanner.807ac5eed1c92d2cd535.png",
     "static/media/TCWBanner.png": "/static/media/TCWBanner.031617cea31ea5e9e705.png",
@@ -29,12 +34,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.8e5f29e014a36a79bb1f775bb1a96bf0.svg",
     "static/media/arrow.svg": "/static/media/arrow.a77c51f9213fbfd3ecccae6341633fff.svg",
-    "main.05c7f0bb.css.map": "/static/css/main.05c7f0bb.css.map",
-    "main.a02583ce.js.map": "/static/js/main.a02583ce.js.map",
+    "main.d510f6c4.css.map": "/static/css/main.d510f6c4.css.map",
+    "main.d6cb3bea.js.map": "/static/js/main.d6cb3bea.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05c7f0bb.css",
-    "static/js/main.a02583ce.js"
+    "static/css/main.d510f6c4.css",
+    "static/js/main.d6cb3bea.js"
   ]
 }
