@@ -3,6 +3,7 @@ import Header from '../Components/Header/Header';
 import './SVM.css';
 import Banner from '../Assets/Banners/SVMBanner.png';
 import Logo from '../Assets/Logos/SVMLogo.svg';
+import Poster from '../Assets/Screens/SVMPoster.png';
 
 function SVM() {
   return (
@@ -91,6 +92,18 @@ function SVM() {
             steps like organizing the classes into an array and setting up a storage container for
             the values. The output of the function is two DataFrames, one storing macro F1 scores
             for each class and the other storing micro F1 scores.
+          </div>
+        </div>
+        <div className="tcw-grey-line" />
+        <div className="dopamind-text-section">
+          <div className="dopamind-section-title">POSTER</div>
+          <div className="paragraph-title"><img src={Poster} alt="Poster" className="svm-poster" /></div>
+          <div className="paragraph-break" />
+          <div className="paragraph-content">
+            I presented this poster at the Computational and Systems Biology Research
+            Symposium to faculty and students within the department. In addition to this
+            poster, I crafted a ten minute slideshow presentation and wrote a ten page paper
+            summarizing the findings during my time at the Junction of Statistics and Biology.
           </div>
         </div>
         <div className="tcw-bottom" />

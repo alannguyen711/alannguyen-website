@@ -3,6 +3,10 @@ import Header from '../Components/Header/Header';
 import './DopaMind.css';
 import Banner from '../Assets/Banners/DopaMindBanner.png';
 import Logo from '../Assets/Logos/DopaMindLogo.svg';
+import Transcribble from '../Assets/Screens/DopaMindTranscribble.png';
+import Games from '../Assets/Screens/DopaMindGames.png';
+import StudySpace from '../Assets/Screens/DopaMindStudySpace.png';
+import Resources from '../Assets/Screens/DopaMindResources.png';
 
 function DopaMind() {
   return (
@@ -71,6 +75,8 @@ function DopaMind() {
         <div className="tcw-grey-line" />
         <div className="dopamind-text-section">
           <div className="dopamind-section-title">FEATURES</div>
+          <img src={Transcribble} alt="Transcribble Screen" className="dopamind-screens" />
+          <div className="paragraph-break" />
           <div className="paragraph-title">TRANSCRIBBLE</div>
           <div className="paragraph-content">
             Capable of transcribing what the user says onto the screen, Transcribble
@@ -79,6 +85,8 @@ function DopaMind() {
             the user types into the idea box, helping the flow of inspiration continue
             beyond the user&apos;s initial thoughts.
           </div>
+          <div className="paragraph-break" />
+          <img src={Games} alt="Games Screen" className="dopamind-screens" />
           <div className="paragraph-break" />
           <div className="paragraph-title">GAMES</div>
           <div className="paragraph-content">
@@ -95,6 +103,8 @@ function DopaMind() {
             pattern recognition.
           </div>
           <div className="paragraph-break" />
+          <img src={StudySpace} alt="Study Space Screen" className="dopamind-screens" />
+          <div className="paragraph-break" />
           <div className="paragraph-title">STUDY SPACE</div>
           <div className="paragraph-content">
             The Study Space is an organization tool with musical and time-based elements.
@@ -103,6 +113,8 @@ function DopaMind() {
             helping users break large tasks up into smaller manageable timed units
             and maintain focus.
           </div>
+          <div className="paragraph-break" />
+          <img src={Resources} alt="Resources Screen" className="dopamind-screens" />
           <div className="paragraph-break" />
           <div className="paragraph-title">RESOURCES</div>
           <div className="paragraph-content">

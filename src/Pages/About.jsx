@@ -45,8 +45,6 @@ function About() {
               computer, you’ll probably find me running on a hiking trail, dancing at a concert,
               catching the sunset on the beach or on a swing set with my headphones on.
             </div>
-            <div className="paragraph-enter" />
-            <div className="paragraph-enter" />
             {/* <div className="testimonials">TESTIMONIALS</div> */}
           </div>
           <div className="thirty-percent" />
