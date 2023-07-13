@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d510f6c4.css",
-    "main.js": "/static/js/main.d6cb3bea.js",
+    "main.css": "/static/css/main.0ca94369.css",
+    "main.js": "/static/js/main.8d3c19a3.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/afterhours.png": "/static/media/afterhours.4294b9fca45ebd398305.png",
     "static/media/dopamind.png": "/static/media/dopamind.c548c56f9e0b674a457c.png",
@@ -21,6 +21,7 @@
     "static/media/AlanNguyen_Resume.pdf": "/static/media/AlanNguyen_Resume.20a8a1a8fe9ce32866d2.pdf",
     "static/media/CircularStd-Book.otf": "/static/media/CircularStd-Book.c1441dbff704baa78817.otf",
     "static/media/CircularStd-Bold.otf": "/static/media/CircularStd-Bold.c35da9cdcefd0d8b8f1c.otf",
+    "static/media/aasc.png": "/static/media/aasc.c32e5eb30111c5317aef.png",
     "static/media/TCWHomePages.png": "/static/media/TCWHomePages.8dfa39de4e9aeea0e6c7.png",
     "static/media/TCWProfilePage.png": "/static/media/TCWProfilePage.30ba7c4d204de291b4c0.png",
     "static/media/TCWLogo.png": "/static/media/TCWLogo.02b21d672b8dd1a3a82d.png",
@@ -34,12 +35,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.8e5f29e014a36a79bb1f775bb1a96bf0.svg",
     "static/media/arrow.svg": "/static/media/arrow.a77c51f9213fbfd3ecccae6341633fff.svg",
-    "main.d510f6c4.css.map": "/static/css/main.d510f6c4.css.map",
-    "main.d6cb3bea.js.map": "/static/js/main.d6cb3bea.js.map",
+    "main.0ca94369.css.map": "/static/css/main.0ca94369.css.map",
+    "main.8d3c19a3.js.map": "/static/js/main.8d3c19a3.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d510f6c4.css",
-    "static/js/main.d6cb3bea.js"
+    "static/css/main.0ca94369.css",
+    "static/js/main.8d3c19a3.js"
   ]
 }
