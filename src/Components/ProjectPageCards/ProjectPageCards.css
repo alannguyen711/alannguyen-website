@@ -14,8 +14,11 @@
 
 .individual-project {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     transition: transform .2s;
+    @media (min-width: 800px) {
+        flex-direction: row;
+      }
 }
 
 .individual-project:hover {
@@ -23,7 +26,10 @@
 }
 
 .project-image-container {
-    width: 45%;
+    width: 100%;
+    @media (min-width: 800px) {
+        width:45%
+      }
 }
 
 .project-image {
@@ -35,9 +41,14 @@
 .project-text {
     display: flex;
     flex-direction: column;
-    width: 55%;
-    padding-left: 3em;
+    width: 100%;
     font-family: 'Circular';
+    padding-top: 2em;
+    @media (min-width: 800px) {
+        padding-left: 3em;
+        width: 55%;
+        padding-top: 0em;
+      }
 }
 
 .project-name {
