@@ -16,7 +16,7 @@ function SVM() {
             <div>
               <div className="dopamind-title">SVM Classification</div>
               <div className="dopamind-type">ML CLASSIFIER</div>
-              <img src={Logo} alt="JSB logo" className="dopamind-logo" />
+              <img src={Logo} alt="JSB logo" className="svm-logo" />
             </div>
           </div>
           <div className="top-pairs">

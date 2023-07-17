@@ -38,7 +38,7 @@ function ProjectsPage() {
     MentorSEAS,
   ];
   const projectRoutes = [
-    '/wip',
+    '/aasc',
     '/tcw',
     '/dopamind',
     '/svm',

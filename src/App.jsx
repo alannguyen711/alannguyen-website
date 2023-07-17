@@ -10,6 +10,7 @@ import WIP from './Pages/WIP';
 import TCW from './Pages/TCW';
 import DopaMind from './Pages/DopaMind';
 import SVM from './Pages/SVM';
+import AASC from './Pages/AASC';
 import './App.css';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/tcw" element={<TCW />} />
         <Route path="/dopamind" element={<DopaMind />} />
         <Route path="/svm" element={<SVM />} />
+        <Route path="/aasc" element={<AASC />} />
       </Routes>
     </div>
   );

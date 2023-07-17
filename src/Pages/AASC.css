@@ -1,4 +1,4 @@
-  @font-face {
+@font-face {
     font-family: 'Circular';
     src: url('../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: bold;
@@ -12,12 +12,12 @@
     font-style: normal;
   }
 
-.entire-dopamind {
+.entire-aasc {
     width: 80%;
     margin: 0 auto;
 }
 
-.dopamind-banner {
+.aasc-banner {
     width: 90%;
     margin: 0 auto;
     justify-self: center;
@@ -41,20 +41,20 @@
   flex-basis: 50%;
 }
 
-.dopamind-title {
+.aasc-title {
   font-family: 'Circular';
   font-size: 2.3em;
   font-weight: 600;
 
 }
 
-.dopamind-type {
+.aasc-type {
   font-family: 'Circular';
   font-size: 1.4em;
   margin-bottom: 0.7em;
 }
 
-.dopamind-logo {
+.aasc-logo {
   width: 4em;
   padding-bottom: 1.5em;
   @media (min-width: 800px) {
@@ -74,6 +74,10 @@
 .top-pair {
   display: flex;
   flex-direction: row;
+  padding-bottom: 1.5em;
+  @media (min-width: 800px) {
+    padding-bottom: 0;
+  }
 }
 
 .top-category {
@@ -81,19 +85,19 @@
   font-weight: 600;
 }
 
-.dopamind-grey-line {
+.aasc-grey-line {
   border-top: 1px solid #CECECE;
   margin-top: 7em;
   height: 7em;
 }
 
-.dopamind-text-section {
+.aasc-text-section {
   width: 90%;
   margin: 0 auto;
   font-family: 'Circular';
 }
 
-.dopamind-section-title {
+.aasc-section-title {
   font-weight: 600;
   font-size: 2.3em;
   padding-bottom: 1.5em;
@@ -112,17 +116,6 @@
   height: 2.5em;
 }
 
-.dopamind-bottom {
+.aasc-bottom {
   height: 7em;
-}
-
-.dopamind-screens {
-  margin: 0 auto;
-  display: flex;
-  width: 50%;
-  transition: transform .2s;
-}
-
-.dopamind-screens:hover {
-  transform: scale(0.98);
 }

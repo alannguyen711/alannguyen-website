@@ -30,7 +30,7 @@ function ProjectsHome() {
     MentorSEAS,
   ];
   const routes = [
-    '/wip',
+    '/aasc',
     '/tcw',
     '/dopamind',
     '/svm',

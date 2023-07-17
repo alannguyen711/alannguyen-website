@@ -28,10 +28,13 @@
 
 .project-details {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    @media (min-width: 800px) {
+      flex-direction: row;
+    }
     width: 90%;
     margin: 0 auto;
-}
+  }
 
 .project-basics {
     font-family: 'Circular';
@@ -53,6 +56,10 @@
 
 .tcw-logo {
     width: 4em;
+    padding-bottom: 1.5em;
+    @media (min-width: 800px) {
+    padding-bottom: 0;
+  }
 }
 
 .top-pairs {
