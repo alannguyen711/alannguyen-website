@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ca94369.css",
-    "main.js": "/static/js/main.8d3c19a3.js",
+    "main.css": "/static/css/main.59d1df27.css",
+    "main.js": "/static/js/main.aa4c0642.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/afterhours.png": "/static/media/afterhours.4294b9fca45ebd398305.png",
     "static/media/dopamind.png": "/static/media/dopamind.c548c56f9e0b674a457c.png",
     "static/media/DopaMind.png": "/static/media/DopaMind.bf3059ba6efc641e4cfd.png",
     "static/media/DopaMindBanner.png": "/static/media/DopaMindBanner.2d070e69b04b797cc18a.png",
     "static/media/SVMPoster.png": "/static/media/SVMPoster.7e035a5de8303a9773ff.png",
+    "static/media/AASCLogo.svg": "/static/media/AASCLogo.f6c5b2244b1a68fc8011e6f8147022f6.svg",
     "static/media/TCW.png": "/static/media/TCW.74c38dd5b80f6c7c01e6.png",
     "static/media/DopaMindStudySpace.png": "/static/media/DopaMindStudySpace.654931b8b795f58c3630.png",
     "static/media/jsb.png": "/static/media/jsb.d882503ff0f8717af13d.png",
@@ -24,6 +25,7 @@
     "static/media/aasc.png": "/static/media/aasc.c32e5eb30111c5317aef.png",
     "static/media/TCWHomePages.png": "/static/media/TCWHomePages.8dfa39de4e9aeea0e6c7.png",
     "static/media/TCWProfilePage.png": "/static/media/TCWProfilePage.30ba7c4d204de291b4c0.png",
+    "static/media/AASCBanner.png": "/static/media/AASCBanner.306d8427152d018883dc.png",
     "static/media/TCWLogo.png": "/static/media/TCWLogo.02b21d672b8dd1a3a82d.png",
     "static/media/alan-component.svg": "/static/media/alan-component.00e4eba1c149e022d6bdc63ffd379098.svg",
     "static/media/SVMLogo.svg": "/static/media/SVMLogo.4692215fbec227c80b9ea363589d1ccf.svg",
@@ -35,12 +37,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.8e5f29e014a36a79bb1f775bb1a96bf0.svg",
     "static/media/arrow.svg": "/static/media/arrow.a77c51f9213fbfd3ecccae6341633fff.svg",
-    "main.0ca94369.css.map": "/static/css/main.0ca94369.css.map",
-    "main.8d3c19a3.js.map": "/static/js/main.8d3c19a3.js.map",
+    "main.59d1df27.css.map": "/static/css/main.59d1df27.css.map",
+    "main.aa4c0642.js.map": "/static/js/main.aa4c0642.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ca94369.css",
-    "static/js/main.8d3c19a3.js"
+    "static/css/main.59d1df27.css",
+    "static/js/main.aa4c0642.js"
   ]
 }
