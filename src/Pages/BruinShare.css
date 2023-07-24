@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Circular';
+    src: url('../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Circular';
+    src: url('../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.entire-bs {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bs-banner {
+    width: 90%;
+    margin: 0 auto;
+    justify-self: center;
+    display: flex;
+    padding-top: 1.5em;
+    padding-bottom: 4em;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 800px) {
+    flex-direction: row;
+  }
+  width: 90%;
+  margin: 0 auto;
+}
+
+.project-basics {
+  font-family: 'Circular';
+  flex-basis: 50%;
+}
+
+.bs-title {
+  font-family: 'Circular';
+  font-size: 2.3em;
+  font-weight: 600;
+
+}
+
+.bs-type {
+  font-family: 'Circular';
+  font-size: 1.4em;
+  margin-bottom: 0.7em;
+}
+
+.bs-logo {
+  width: 4em;
+  padding-bottom: 1.5em;
+  @media (min-width: 800px) {
+    padding-bottom: 0;
+  }
+}
+
+.top-pairs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 50%;
+  padding-top: .5em;
+  font-family: 'Circular';
+}
+
+.top-pair {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1.5em;
+  @media (min-width: 800px) {
+    padding-bottom: 0;
+  }
+}
+
+.top-category {
+  flex-basis: 50%;
+  font-weight: 600;
+}
+
+.aasc-grey-line {
+  border-top: 1px solid #CECECE;
+  margin-top: 7em;
+  height: 7em;
+}
+
+.aasc-text-section {
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Circular';
+}
+
+.aasc-section-title {
+  font-weight: 600;
+  font-size: 2.3em;
+  padding-bottom: 1.5em;
+}
+
+.paragraph-title {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.paragraph-content {
+  font-size: 1em;
+}
+
+.paragraph-break {
+  height: 2.5em;
+}
+
+.aasc-bottom {
+  height: 7em;
+}

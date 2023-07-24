@@ -7,6 +7,8 @@ import TCW from '../Assets/ProjectImages/TCW.png';
 import DopaMind from '../Assets/ProjectImages/DopaMind.png';
 import SVM from '../Assets/ProjectImages/SVM.png';
 import MentorSEAS from '../Assets/ProjectImages/mentorSEAS.png';
+import BruinShare from '../Assets/ProjectImages/bruinshare.png';
+import GhostRacer from '../Assets/ProjectImages/ghostracer.png';
 
 function ProjectsPage() {
   const projectNames = [
@@ -15,6 +17,8 @@ function ProjectsPage() {
     'DopaMind',
     'SVM Classification',
     'MentorSEAS',
+    'Bruin Share',
+    'GhostRacer',
   ];
   const projectTypes = [
     'TEXTBOOK APPLICATION',
@@ -22,6 +26,8 @@ function ProjectsPage() {
     'HACKATHON PROJECT',
     'MACHINE LEARNING CLASSIFIER',
     'SORTING ALGORITHM',
+    'STUDY PLATFORM',
+    'VIDEO GAME',
   ];
   const projectDescriptions = [
     'An interactive textbook application deepening the public understanding of Asian American and Pacific Islander lives towards a healthy, just, democratic and compassionate society for all.',
@@ -29,6 +35,8 @@ function ProjectsPage() {
     'A comprehensive web app for students with ADHD, designed to help improve their focus and social skills by providing them with fun and engaging activities that are tailored to their unique needs.',
     'A Python program that employs a Support Vector Machine to classify mouse brain cells using single cell RNA-sequencing data.',
     'Utilizes the k-means algorithm to pair 1500 incoming engineering students with mentors, considering dozens of qualitative parameters to create axes for optimal pairings.',
+    'A MERN Stack based web application for UCLA students to view, download and share their school essentials with other students.',
+    'A multi-level racing game where the player acts as the Ghost Racer, trying to save lost souls. A series of obstacles such as zombies, taxi cabs and oil spills try to stop the Ghost Racer from proceeding.',
   ];
   const projectImages = [
     AASC,
@@ -36,12 +44,16 @@ function ProjectsPage() {
     DopaMind,
     SVM,
     MentorSEAS,
+    BruinShare,
+    GhostRacer,
   ];
   const projectRoutes = [
     '/aasc',
     '/tcw',
     '/dopamind',
     '/svm',
+    '/wip',
+    '/bruinshare',
     '/wip',
   ];
 

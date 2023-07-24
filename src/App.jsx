@@ -11,6 +11,7 @@ import TCW from './Pages/TCW';
 import DopaMind from './Pages/DopaMind';
 import SVM from './Pages/SVM';
 import AASC from './Pages/AASC';
+import BruinShare from './Pages/BruinShare';
 import './App.css';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/dopamind" element={<DopaMind />} />
         <Route path="/svm" element={<SVM />} />
         <Route path="/aasc" element={<AASC />} />
+        <Route path="/bruinshare" element={<BruinShare />} />
       </Routes>
     </div>
   );

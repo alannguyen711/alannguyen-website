@@ -1,11 +1,20 @@
 import React from 'react';
 import './ProjectsHome.css';
 import Cards from '../Cards/Cards';
-import AASC from '../../Assets/CardImages/aasc.png';
-import TCW from '../../Assets/CardImages/TCW.png';
-import DopaMind from '../../Assets/CardImages/dopamind.png';
-import JSB from '../../Assets/CardImages/jsb.png';
-import MentorSEAS from '../../Assets/CardImages/mentorSEAS.png';
+// import AASC from '../../Assets/CardImages/aasc.png';
+// import TCW from '../../Assets/CardImages/TCW.png';
+// import DopaMind from '../../Assets/CardImages/dopamind.png';
+// import JSB from '../../Assets/CardImages/jsb.png';
+// import MentorSEAS from '../../Assets/CardImages/mentorSEAS.png';
+// import BruinShare from '../../Assets/CardImages/bruinshare.png';
+// import GhostRacer from '../../Assets/CardImages/ghostracer.png';
+import AASC from '../../Assets/ProjectImages/aasc.png';
+import TCW from '../../Assets/ProjectImages/TCW.png';
+import DopaMind from '../../Assets/ProjectImages/DopaMind.png';
+import JSB from '../../Assets/ProjectImages/SVM.png';
+import MentorSEAS from '../../Assets/ProjectImages/mentorSEAS.png';
+import BruinShare from '../../Assets/ProjectImages/bruinshare.png';
+import GhostRacer from '../../Assets/ProjectImages/ghostracer.png';
 
 function ProjectsHome() {
   const names = [
@@ -14,6 +23,8 @@ function ProjectsHome() {
     'DopaMind',
     'SVM Classification',
     'MentorSEAS',
+    'Bruin Share',
+    'GhostRacer',
   ];
   const descriptions = [
     'TEXTBOOK APPLICATION',
@@ -21,6 +32,8 @@ function ProjectsHome() {
     'HACKATHON PROJECT',
     'MACHINE LEARNING CLASSIFIER',
     'SORTING ALGORITHM',
+    'STUDY PLATFORM',
+    'VIDEO GAME',
   ];
   const images = [
     AASC,
@@ -28,12 +41,16 @@ function ProjectsHome() {
     DopaMind,
     JSB,
     MentorSEAS,
+    BruinShare,
+    GhostRacer,
   ];
   const routes = [
     '/aasc',
     '/tcw',
     '/dopamind',
     '/svm',
+    '/wip',
+    '/bruinshare',
     '/wip',
   ];
   return (
