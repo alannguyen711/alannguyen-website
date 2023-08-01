@@ -9,22 +9,20 @@ import Cards from '../Cards/Cards';
 // import BruinShare from '../../Assets/CardImages/bruinshare.png';
 // import GhostRacer from '../../Assets/CardImages/ghostracer.png';
 import AASC from '../../Assets/ProjectImages/aasc.png';
-import TCW from '../../Assets/ProjectImages/TCW.png';
+import TCW from '../../Assets/ProjectImages/TCW.svg';
 import DopaMind from '../../Assets/ProjectImages/DopaMind.png';
-import JSB from '../../Assets/ProjectImages/SVM.png';
+import JSB from '../../Assets/ProjectImages/SVM.svg';
 import MentorSEAS from '../../Assets/ProjectImages/mentorSEAS.png';
 import BruinShare from '../../Assets/ProjectImages/bruinshare.svg';
-import GhostRacer from '../../Assets/ProjectImages/ghostracer.png';
 
 function ProjectsHome() {
   const names = [
-    'AASC',
+    'UCLA Asian American Studies Center',
     'TransCanWork',
     'SVM Classification',
     'DopaMind',
     'MentorSEAS',
     'Bruin Share',
-    'GhostRacer',
   ];
   const descriptions = [
     'TEXTBOOK APPLICATION',
@@ -33,7 +31,6 @@ function ProjectsHome() {
     'HACKATHON PROJECT',
     'SORTING ALGORITHM',
     'STUDY PLATFORM',
-    'VIDEO GAME',
   ];
   const images = [
     AASC,
@@ -42,7 +39,6 @@ function ProjectsHome() {
     DopaMind,
     MentorSEAS,
     BruinShare,
-    GhostRacer,
   ];
   const routes = [
     '/aasc',
@@ -51,7 +47,6 @@ function ProjectsHome() {
     '/dopamind',
     '/wip',
     '/bruinshare',
-    '/wip',
   ];
   return (
     <div className="entire-projects">

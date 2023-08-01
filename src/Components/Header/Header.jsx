@@ -12,8 +12,8 @@ function Header() {
       </div>
       <div className="pages">
         <Link to="/projects" className="page">Projects</Link>
-        <Link to="/afterhours" className="page">Afterhours</Link>
         <a href={Resume} target="_blank" rel="noopener noreferrer" className="page">Resume</a>
+        <Link to="/afterhours" className="page">Afterhours</Link>
         <Link to="/about" className="page">About</Link>
       </div>
     </div>
