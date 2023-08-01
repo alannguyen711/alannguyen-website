@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.fd621c3b.css",
-    "main.js": "/static/js/main.4b2a2cb2.js",
+    "main.js": "/static/js/main.1c07e863.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/afterhours.png": "/static/media/afterhours.4294b9fca45ebd398305.png",
+    "static/media/afterhours.png": "/static/media/afterhours.c0687ad544ecc65cb263.png",
+    "static/media/BruinShareBanner.svg": "/static/media/BruinShareBanner.f60ceb2cb48aecebc89ddec054d500d3.svg",
     "static/media/DopaMind.png": "/static/media/DopaMind.bf3059ba6efc641e4cfd.png",
     "static/media/DopaMindBanner.png": "/static/media/DopaMindBanner.2d070e69b04b797cc18a.png",
     "static/media/SVMPoster.png": "/static/media/SVMPoster.7e035a5de8303a9773ff.png",
@@ -16,6 +17,7 @@
     "static/media/SVM.png": "/static/media/SVM.20245bc479f8bb887eda.png",
     "static/media/SVMBanner.png": "/static/media/SVMBanner.807ac5eed1c92d2cd535.png",
     "static/media/TCWBanner.png": "/static/media/TCWBanner.031617cea31ea5e9e705.png",
+    "static/media/bruinshare.svg": "/static/media/bruinshare.b2c801bf5a283f8f98a037f63c08bae4.svg",
     "static/media/mentorSEAS.png": "/static/media/mentorSEAS.27fa7cdce2b66f1e8147.png",
     "static/media/AlanNguyen_Resume.pdf": "/static/media/AlanNguyen_Resume.20a8a1a8fe9ce32866d2.pdf",
     "static/media/CircularStd-Book.otf": "/static/media/CircularStd-Book.c1441dbff704baa78817.otf",
@@ -25,10 +27,8 @@
     "static/media/aasc.png": "/static/media/aasc.c32e5eb30111c5317aef.png",
     "static/media/TCWProfilePage.png": "/static/media/TCWProfilePage.30ba7c4d204de291b4c0.png",
     "static/media/AASCBanner.png": "/static/media/AASCBanner.306d8427152d018883dc.png",
-    "static/media/bruinshare.png": "/static/media/bruinshare.7289288c7d84086522a9.png",
     "static/media/TCWLogo.png": "/static/media/TCWLogo.02b21d672b8dd1a3a82d.png",
     "static/media/alan-component.svg": "/static/media/alan-component.00e4eba1c149e022d6bdc63ffd379098.svg",
-    "static/media/BruinShareBanner.png": "/static/media/BruinShareBanner.49f686fb0e496db8d6f8.png",
     "static/media/SVMLogo.svg": "/static/media/SVMLogo.4692215fbec227c80b9ea363589d1ccf.svg",
     "static/media/honeycomb.svg": "/static/media/honeycomb.07b4609ed5f72f778c4cf9df7146ab54.svg",
     "static/media/alanLogo.svg": "/static/media/alanLogo.bb1aeaa872570db2b821470590ec1643.svg",
@@ -39,11 +39,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.8e5f29e014a36a79bb1f775bb1a96bf0.svg",
     "static/media/arrow.svg": "/static/media/arrow.a77c51f9213fbfd3ecccae6341633fff.svg",
     "main.fd621c3b.css.map": "/static/css/main.fd621c3b.css.map",
-    "main.4b2a2cb2.js.map": "/static/js/main.4b2a2cb2.js.map",
+    "main.1c07e863.js.map": "/static/js/main.1c07e863.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd621c3b.css",
-    "static/js/main.4b2a2cb2.js"
+    "static/js/main.1c07e863.js"
   ]
 }
