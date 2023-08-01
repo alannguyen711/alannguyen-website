@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header/Header';
 import './BruinShare.css';
-import Banner from '../Assets/Banners/BruinShareBanner.svg';
+import Banner from '../Assets/Banners/BruinShareBanner.png';
 import Logo from '../Assets/Logos/BruinShareLogo.png';
 
 function BruinShare() {

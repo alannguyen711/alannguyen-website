@@ -7,7 +7,7 @@ import TCW from '../Assets/ProjectImages/TCW.svg';
 import DopaMind from '../Assets/ProjectImages/DopaMind.png';
 import SVM from '../Assets/ProjectImages/SVM.svg';
 import MentorSEAS from '../Assets/ProjectImages/mentorSEAS.png';
-import BruinShare from '../Assets/ProjectImages/bruinshare.svg';
+import BruinShare from '../Assets/ProjectImages/bruinshare.png';
 
 function ProjectsPage() {
   const projectNames = [
