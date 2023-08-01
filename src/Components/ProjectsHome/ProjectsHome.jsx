@@ -13,15 +13,15 @@ import TCW from '../../Assets/ProjectImages/TCW.png';
 import DopaMind from '../../Assets/ProjectImages/DopaMind.png';
 import JSB from '../../Assets/ProjectImages/SVM.png';
 import MentorSEAS from '../../Assets/ProjectImages/mentorSEAS.png';
-import BruinShare from '../../Assets/ProjectImages/bruinshare.png';
+import BruinShare from '../../Assets/ProjectImages/bruinshare.svg';
 import GhostRacer from '../../Assets/ProjectImages/ghostracer.png';
 
 function ProjectsHome() {
   const names = [
     'AASC',
     'TransCanWork',
-    'DopaMind',
     'SVM Classification',
+    'DopaMind',
     'MentorSEAS',
     'Bruin Share',
     'GhostRacer',
@@ -29,8 +29,8 @@ function ProjectsHome() {
   const descriptions = [
     'TEXTBOOK APPLICATION',
     'WEB APPLICATION',
-    'HACKATHON PROJECT',
     'MACHINE LEARNING CLASSIFIER',
+    'HACKATHON PROJECT',
     'SORTING ALGORITHM',
     'STUDY PLATFORM',
     'VIDEO GAME',
@@ -38,8 +38,8 @@ function ProjectsHome() {
   const images = [
     AASC,
     TCW,
-    DopaMind,
     JSB,
+    DopaMind,
     MentorSEAS,
     BruinShare,
     GhostRacer,
@@ -47,8 +47,8 @@ function ProjectsHome() {
   const routes = [
     '/aasc',
     '/tcw',
-    '/dopamind',
     '/svm',
+    '/dopamind',
     '/wip',
     '/bruinshare',
     '/wip',

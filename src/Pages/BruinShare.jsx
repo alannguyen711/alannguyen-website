@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header/Header';
 import './BruinShare.css';
-import Banner from '../Assets/Banners/BruinShareBanner.png';
+import Banner from '../Assets/Banners/BruinShareBanner.svg';
 import Logo from '../Assets/Logos/BruinShareLogo.png';
 
 function BruinShare() {
@@ -13,8 +13,8 @@ function BruinShare() {
         <div className="project-details">
           <div className="project-basics">
             <div>
-              <div className="bs-title">UCLA AASC</div>
-              <div className="bs-type">TEXTBOOK APPLICATION</div>
+              <div className="bs-title">Bruin Share</div>
+              <div className="bs-type">STUDY PLATFORM</div>
               <img src={Logo} alt="BruinShare" className="bs-logo" />
             </div>
           </div>
@@ -51,19 +51,19 @@ function BruinShare() {
           <div className="aasc-section-title">DETAILS</div>
           <div className="paragraph-title">TECHNOLOGIES</div>
           <div className="paragraph-content">
+            The project was made using MongoDB, Express.js, React.js, and Node.js. All of our user
+            and post data is stored in a MongoDB database. This project was also built with the
+            React Redux and Material UI libraries. The backend of this application is deployed
+            using Heroku, and the frontend is deployed using Netlify.
+          </div>
+          <div className="paragraph-break" />
+          <div className="paragraph-title">FEATURES</div>
+          <div className="paragraph-content">
             Users will be able to view and download all posts without creating or logging in to an
             account. In order to make posts of their own and like others&apos; posts, users can
             create an account with Bruin Share, or log in using their Google account. Each post is
             displayed on a card and is associated with certain tags. Users can locate specific
             materials with a search bar and filtering options by class subject.
-          </div>
-          <div className="paragraph-break" />
-          <div className="paragraph-title">FEATURES</div>
-          <div className="paragraph-content">
-            The project was made using MongoDB, Express.js, React.js, and Node.js. All of our user
-            and post data is stored in a MongoDB database. This project was also built with the
-            React Redux and Material UI libraries. The backend of this application is deployed
-            using Heroku, and the frontend is deployed using Netlify.
           </div>
         </div>
         <div className="aasc-bottom" />
