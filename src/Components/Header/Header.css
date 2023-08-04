@@ -39,6 +39,21 @@
     justify-content: space-between;
     align-self: center;
     width: 35%;
+    font-weight: 700;
+}
+
+@media (max-width: 900px) {
+    .pages {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .pages {
+        flex-direction: column;
+        align-items: flex-end;
+        font-size: 0.75em;
+    }
 }
 
 .page {

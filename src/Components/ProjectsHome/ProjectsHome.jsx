@@ -9,9 +9,9 @@ import Cards from '../Cards/Cards';
 // import BruinShare from '../../Assets/CardImages/bruinshare.png';
 // import GhostRacer from '../../Assets/CardImages/ghostracer.png';
 import AASC from '../../Assets/ProjectImages/aasc.png';
-import TCW from '../../Assets/ProjectImages/TCW.svg';
+import TCW from '../../Assets/ProjectImages/TCW.png';
 import DopaMind from '../../Assets/ProjectImages/DopaMind.png';
-import JSB from '../../Assets/ProjectImages/SVM.svg';
+import JSB from '../../Assets/ProjectImages/SVM.png';
 import MentorSEAS from '../../Assets/ProjectImages/mentorSEAS.png';
 import BruinShare from '../../Assets/ProjectImages/bruinshare.png';
 

@@ -27,7 +27,7 @@ function BruinShare() {
             </div>
             <div className="top-pair">
               <div className="top-category">DURATION</div>
-              <div className="top-answer">Mar 2023 - May 2023</div>
+              <div className="top-answer">Mar 2021 - May 2021</div>
             </div>
             <div className="top-pair">
               <div className="top-category">TECHNOLOGIES</div>

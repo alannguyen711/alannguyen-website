@@ -73,15 +73,27 @@
 }
 
 .ten-percent {
-    flex-basis: 5%;
+    /* flex-basis: 5%; */
 }
 
 .paragraphs {
     font-family: 'Circular';
     font-size: 1.2em;
-    flex-basis: 75%;
-    line-height: 1.3;
+    /* flex-basis: 75%; */
+    line-height: 1.3em;
     font-weight: 100;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.skills-technologies {
+    margin-left: 2em;
+    line-height: 170%;
+}
+
+.bolded {
+    font-weight: 700;
+    font-size: 1.3em;
 }
 
 .a-tags {

@@ -1,57 +1,39 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Alan.css';
-import AlanComponent from '../../Assets/alan-component.svg';
+import frame1 from '../../Assets/Animations/frame1.png';
+import frame2 from '../../Assets/Animations/frame2.png';
+import Down from '../../Assets/Icons/downArrow.svg';
+// import AlanComponent from '../../Assets/alan-component.svg';
 // import Arrow from '../../Assets/arrow.svg';
 // import TrailBee from '../../Assets/trailBee.svg';
 // import TrailOnly from '../../Assets/trailOnly.svg';
 // import YellowA from '../../Assets/yellowA.svg';
 
 function Alan() {
+  const [frame, setFrame] = useState(1);
+
+  useEffect(() => {
+    const animationInterval = setInterval(() => {
+      setFrame((prevFrame) => (prevFrame === 1 ? 2 : 1));
+    }, 200);
+
+    return () => clearInterval(animationInterval);
+  }, []);
   return (
-    <div className="entire-container-main">
-      <div className="alan-contents">
-        <img src={AlanComponent} alt="Alan Nguyen, software developer" className="alan-component" />
-        {/* <div className="alan-line">
-          <div className="location">
-            <div className="la">BASED IN LA &</div>
-            <div className="bay-area-arrow">
-              <div className="bay-area">BAY AREA</div>
-              <img src={Arrow} alt="rightwards arrow" className="arrow" />
-            </div>
-          </div>
-          <div>
-            <div className="alan">
-              AL
-              <span className="white-a">A</span>
-              N
-            </div> */}
-        {/* <img src={YellowA} alt="A filled with yellow" className="yellow-a" /> */}
-        {/* </div>
-          <div>
-            <img src={TrailBee} alt="bee with trail" className="trail-bee" />
-          </div>
+    <div>
+      <div className="entire-container-main">
+        <div className="alan-contents">
+          {frame === 1 ? (
+            <img src={frame1} alt="Frame 1" className="animation-frame" />
+          ) : (
+            <img src={frame2} alt="Frame 2" className="animation-frame" />
+          )}
         </div>
-        <div className="nguyen-line">
-          <div>
-            <img src={TrailOnly} alt="bee trail" className="trail-only" />
-          </div>
-          <div className="nguyen">NGUYEN</div>
-          <div className="position-year">
-            <div className="position">SOFTWARE DEVELOPER</div>
-            <div className="clickable">
-              @
-              {' '}
-              <a href="https://lablueprint.org/" target="_blank" className="inline" rel="noreferrer">LA BLUEPRINT</a>
-            </div>
-            <div className="clickable">
-              &
-              {' '}
-              <a href="https://www.aasc.ucla.edu/" target="_blank" className="inline" rel="noreferrer">UCLA AASC</a>
-            </div>
-          </div> */}
-        {/* </div> */}
+        <div className="chevron-container">
+          <img src={Down} className="down-chevron" alt="down Chevron" />
+        </div>
+        <div className="grey-line-alan" />
       </div>
-      <div className="grey-line-alan" />
     </div>
   );
 }

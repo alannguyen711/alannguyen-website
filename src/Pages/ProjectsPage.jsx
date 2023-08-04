@@ -3,9 +3,9 @@ import './ProjectsPage.css';
 import Header from '../Components/Header/Header';
 import ProjectPageCards from '../Components/ProjectPageCards/ProjectPageCards';
 import AASC from '../Assets/ProjectImages/aasc.png';
-import TCW from '../Assets/ProjectImages/TCW.svg';
+import TCW from '../Assets/ProjectImages/TCW.png';
 import DopaMind from '../Assets/ProjectImages/DopaMind.png';
-import SVM from '../Assets/ProjectImages/SVM.svg';
+import SVM from '../Assets/ProjectImages/SVM.png';
 import MentorSEAS from '../Assets/ProjectImages/mentorSEAS.png';
 import BruinShare from '../Assets/ProjectImages/bruinshare.png';
 

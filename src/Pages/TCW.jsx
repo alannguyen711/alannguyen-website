@@ -5,6 +5,7 @@ import TCWProfilePage from '../Assets/Screens/TCWProfilePage.png';
 import TCWHomePages from '../Assets/Screens/TCWHomePages.png';
 import Banner from '../Assets/Banners/TCWBanner.png';
 import Logo from '../Assets/Logos/TCWLogo.png';
+import Team from '../Assets/Screens/TCWTeam.png';
 
 function TCW() {
   return (
@@ -60,6 +61,29 @@ function TCW() {
         </div>
         <div className="tcw-grey-line" />
         <div className="tcw-text-section">
+          <div className="tcw-section-title">GROWTH</div>
+          <div className="paragraph-title">STEPPING INTO PROJECT LEAD</div>
+          <div className="paragraph-content">
+            I joined the TransCanWork team with no web development experience, but
+            I had a determination to contribute to the project in a meaningful way. Immediately,
+            we hit the ground running, and I was expected to build pages and components of the
+            application. Though it felt like
+            an abrupt start, the exposure exponentiated the speed at which I picked up these
+            concepts. Five months later, I stepped into the role of project lead, spearheading a
+            team of six developers. Starting as a developer and rising to project lead has been
+            an exciting yet daunting ordeal, and I&apos;m infinitely grateful for this experience.
+          </div>
+          <div className="paragraph-break" />
+          <img src={Team} alt="TCW Profile Page" className="tcw-profile-page" />
+          <div className="paragraph-break" />
+          <div className="paragraph-title">TEAM</div>
+          <div className="paragraph-content">
+            I owe this beautiful experience to my LA Blueprint family and TCW, the greatest team
+            I could ever ask for. ❤️
+          </div>
+        </div>
+        <div className="tcw-grey-line" />
+        <div className="tcw-text-section">
           <div className="tcw-section-title">PERSONAL CONTRIBUTION</div>
           <div className="paragraph-title">SEARCH AND FILTER</div>
           <div className="paragraph-content">
@@ -94,8 +118,9 @@ function TCW() {
           <div className="paragraph-title">HOME PAGES</div>
           <div className="paragraph-content">
             The home page links to several other components including pages, training programs,
-            internships, job fairs and the central roadmap. I coded and styled these pages,
-            which save data to our Firebase backend.
+            internships, job fairs and the central roadmap. I made API calls to retrieve the
+            relevant user&apos;s data from the backend, prepopulated all the fields and saved any
+            changes to the Firestore.
           </div>
         </div>
         <div className="tcw-bottom" />
