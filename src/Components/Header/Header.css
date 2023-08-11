@@ -1,19 +1,4 @@
-@font-face {
-    font-family: 'Circular';
-    src: url('../../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Circular';
-    src: url('../../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
-    font-weight: normal;
-    font-style: normal;
-  }
-
 .entire-container-header {
-    font-family: 'Circular';
     font-size: 1em;
     width: 80%;
     margin: 0 auto;
@@ -38,8 +23,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
-    width: 35%;
-    font-weight: 700;
+    width: 45%;
 }
 
 @media (max-width: 900px) {
@@ -58,7 +42,8 @@
 
 .page {
     text-decoration: none;
-    color: black;
+    color: #929292;
+    font-size: 0.93rem;
 }
 
 .page:hover {

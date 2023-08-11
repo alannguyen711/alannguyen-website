@@ -1,4 +1,12 @@
-.entire-projects-page-container {
+.projects-page {
+    background-color: black;
+}
+
+.projects-space {
+    height: 4em;
+}
+
+/* .entire-projects-page-container {
     width: 80%;
     margin: 0 auto;
 }
@@ -9,4 +17,4 @@
 
 .between-projects {
     height: 4em;
-}
+} */

@@ -10,10 +10,8 @@ function Home() {
     <div className="Home">
       <Header />
       <Alan />
-      <div className="project-cards">
-        <ProjectsHome />
-      </div>
-      <div className="first-section" />
+      <div className="grey-line-home" />
+      <ProjectsHome />
       <Footer />
     </div>
   );

@@ -1,74 +1,21 @@
-@font-face {
-    font-family: 'Circular';
-    src: url('../../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Circular';
-    src: url('../../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
-    font-weight: normal;
-    font-style: normal;
-  }
+.name {
+    width: 100%;
+    padding-bottom: 1.5em;
+}
 
 .entire-container-main {
-    font-family: 'Circular';
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
     margin-top: 6em;
 }
 
-.alan-contents {
-    margin-top: 3.5em;
-    margin-bottom: 5em;
-    transition: transform .2s;
+.alan-positions {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    line-height: 170%;
 }
 
-.alan-contents:hover {
-    transform: scale(0.97);
-}
-
-.alan-component {
-    width: 87%;
-    margin: 0 auto;
-    transition: transform .2s;
-}
-
-.alan-component:hover {
-    transform: scale(0.98);
-}
-
-
-.grey-line-alan {
-    border-top: 1px solid #CECECE;
-    height: 7em;
-}
-
-.animation-frame {
-    width: 100%;
-}
-
-.chevron-container {
-    width: 3em;
-    height: 3em;
-    background-color: #F8F8F8;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    margin-bottom: 2em;
-}
-
-/* .chevron-container:hover {
-    background-color: #D9D9D9;
-} */
-
-.down-chevron {
-    width: .75em;
-    height: 1em;
-    margin: 0 auto;
-    text-align: center;
+.position-tags {
+    text-decoration: none;
+    color: #929292;
 }

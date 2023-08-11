@@ -1,26 +1,95 @@
 @font-face {
-  font-family: 'Circular';
-  src: url('../../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-family: 'Acumin';
+  src: url('../../Assets/Fonts/Acumin-BdPro.otf') format('truetype'); /* Adjust the path and font file name accordingly */
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Circular';
-  src: url('../../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-family: 'Acumin';
+  src: url('../../Assets/Fonts/Acumin-RPro.otf') format('truetype'); /* Adjust the path and font file name accordingly */
   font-weight: normal;
   font-style: normal;
 }
 
-  a.card-link {
+a.card-link {
+    text-decoration: none;
+  }
+
+.projects-area {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-image-container {
+  flex-basis: 60%;
+}
+
+.project-screen {
+  width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+}
+
+.home-project-text {
+  flex-basis: 40%;
+  padding-left: 5em;
+}
+
+.titular{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.proj-name {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: 0.1em;
+}
+
+.proj-description {
+  color: #929292 !important;
+  font-size: 1.25rem;
+}
+
+.proj-details {
+  color: rgba(255, 255, 255, 0.79);
+  padding-top: 0.8em;
+  font-size: 1.125rem;
+}
+
+.grey-line-proj {
+  width: 85%;
+  margin: 0 auto;
+  border-top: 0.5px solid #7A7A7A;
+  margin-top: 8em;
+  height: 10em;
+}
+
+.grey-line-proj-last {
+  width: 85%;
+  margin: 0 auto;
+  border-top: 0.5px solid #7A7A7A;
+  margin-top: 8em;
+  height: 4em;
+}
+
+  /* a.card-link {
     text-decoration: none;
   }
 
 .entire-card {
     display: flex;
     flex-direction: column;
-    font-family: 'Circular';
-    color: black;
+    font-family: 'Acumin';
+    color: white;
     text-decoration-color: none;
     transition: transform .2s;
 }
@@ -53,4 +122,4 @@
   justify-self: flex-start;
   width: 1.4em;
   height: auto;
-}
+} */

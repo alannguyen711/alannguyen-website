@@ -6,7 +6,7 @@ import AfterhoursPicture from '../Assets/afterhours.png';
 
 function Afterhours() {
   return (
-    <div>
+    <div className="after-the-hours">
       <Header />
       <img src={AfterhoursPicture} alt="afterhours collage" className="afterhours-image" />
       {/* <img src={AfterhoursPicture1} alt="afterhours collage" className="afterhours-image" /> */}

@@ -5,33 +5,43 @@ import { Link } from 'react-router-dom';
 import Arrow from '../../Assets/arrow.svg';
 
 function Cards({
-  image, name, description, route,
+  image, name, description, route, details,
 }) {
   return (
-    <div>
-      <Link
-        to={route}
-        className="card-link"
-        onClick={() => {
-          window.scroll(0, 0);
-        }}
-      >
-        <div className="entire-card">
-          <div className="arrow-container">
-            <img src={image} alt="TCW project card" className="card-image" />
+    <>
+      <div>
+        <div className="projects-area">
+          <div className="project-image-container">
+            <img src={image} alt="project graphic" className="project-screen" />
           </div>
-          <div className="project-arrow">
-            <div>{name}</div>
-            <img src={Arrow} alt="right pointing arrow" className="card-arrow" />
-          </div>
-          <div>
-            {description}
+          <div className="home-project-text">
+            <Link
+              to={route}
+              className="card-link"
+              onClick={() => {
+                window.scroll(0, 0);
+              }}
+            >
+              <div>
+                <div className="titular">
+                  <div className="titular-words">
+                    <div className="proj-name">{name}</div>
+                    <div className="proj-description">{description}</div>
+                  </div>
+                  <div className="titular-arrow">
+                    <img src={Arrow} alt="arrow" />
+                  </div>
+                </div>
+                <div className="proj-details">{details}</div>
+              </div>
+            </Link>
           </div>
         </div>
+      </div>
+      {(name !== 'DopaMind') && (<div className="grey-line-proj" />)}
+      {(name === 'DopaMind') && (<div className="grey-line-proj-last" />)}
 
-      </Link>
-
-    </div>
+    </>
 
   );
 }
@@ -41,6 +51,7 @@ Cards.propTypes = {
   name: propTypes.string.isRequired,
   description: propTypes.string.isRequired,
   route: propTypes.string.isRequired,
+  details: propTypes.string.isRequired,
 };
 
 export default Cards;

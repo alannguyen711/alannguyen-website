@@ -1,6 +1,6 @@
-
+/* 
   .entire-projects {
-    width: 93%;
+    width: 95%;
     margin: 0 auto;
     justify-content: center;
     display: grid;
@@ -10,4 +10,8 @@
     grid-template-columns: 100%;
     column-gap: 5%;
     row-gap: 5%;
+  } */
+
+  .entire-projects {
+    width: 100%;
   }

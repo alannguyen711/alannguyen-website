@@ -1,3 +1,7 @@
+.Home {
+  background-color: black;
+}
+
 .first-section {
     margin-bottom: 10em;
   }
@@ -6,7 +10,10 @@
     margin-bottom: 5em;
   }
 
-.project-cards {
-  width: 80%;
+.grey-line-home {
+  width: 85%;
   margin: 0 auto;
+  border-top: 0.5px solid #7A7A7A;
+  margin-top: 7em;
+  height: 8em;
 }

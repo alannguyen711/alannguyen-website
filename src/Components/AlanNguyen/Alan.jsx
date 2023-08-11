@@ -1,38 +1,31 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Alan.css';
-import frame1 from '../../Assets/Animations/frame1.png';
-import frame2 from '../../Assets/Animations/frame2.png';
-import Down from '../../Assets/Icons/downArrow.svg';
-// import AlanComponent from '../../Assets/alan-component.svg';
-// import Arrow from '../../Assets/arrow.svg';
-// import TrailBee from '../../Assets/trailBee.svg';
-// import TrailOnly from '../../Assets/trailOnly.svg';
-// import YellowA from '../../Assets/yellowA.svg';
+import Name from '../../Assets/name.png';
+import GreyArrow from '../../Assets/Icons/grey-arrow.svg';
 
 function Alan() {
-  const [frame, setFrame] = useState(1);
-
-  useEffect(() => {
-    const animationInterval = setInterval(() => {
-      setFrame((prevFrame) => (prevFrame === 1 ? 2 : 1));
-    }, 200);
-
-    return () => clearInterval(animationInterval);
-  }, []);
   return (
     <div>
       <div className="entire-container-main">
-        <div className="alan-contents">
-          {frame === 1 ? (
-            <img src={frame1} alt="Frame 1" className="animation-frame" />
-          ) : (
-            <img src={frame2} alt="Frame 2" className="animation-frame" />
-          )}
+        <img src={Name} alt="Alan Nguyen, software and web developer" className="name" />
+        <div className="alan-positions">
+          Lead Developer at
+          <a href="https://transcanwork.org/about-us" className="position-tags">
+            {' '}
+            TransCanWork
+            {' '}
+            <img src={GreyArrow} alt="grey arrow" />
+          </a>
         </div>
-        <div className="chevron-container">
-          <img src={Down} className="down-chevron" alt="down Chevron" />
+        <div className="alan-positions">
+          Frontend Engineer at
+          <a href="https://transcanwork.org/about-us" className="position-tags">
+            {' '}
+            UCLA AASC
+            {' '}
+            <img src={GreyArrow} alt="grey arrow" />
+          </a>
         </div>
-        <div className="grey-line-alan" />
       </div>
     </div>
   );
