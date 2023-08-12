@@ -1,21 +1,90 @@
-.name {
-    width: 100%;
-    padding-bottom: 1.5em;
-}
+@font-face {
+    font-family: 'Inter';
+    src: url('../../Assets/Fonts/Inter-Bold.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('../../Assets/Fonts/Inter-Regular.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
 
-.entire-container-main {
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('../../Assets/Fonts/OpenSans-Bold.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('../../Assets/Fonts/OpenSans-Regular.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .entire-container-alan {
     width: 75%;
     margin: 0 auto;
-    margin-top: 6em;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 4em;
+}
+
+.me-stuff {
+    flex-basis: 55%;
+    margin-bottom: 1em;
+}
+
+.bridge-stuff {
+    flex-basis: 45%;
+}
+
+.actual-bridge {
+    width: 100%;
+}
+
+.big-name {
+    color: #FFFFFF;
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+
+.under-name {
+    font-family: 'Inter';
+    color: rgba(255, 255, 255, 0.79);
+    font-size: 2.3rem;
+    line-height: 150%;
+    margin-bottom: 3rem;
+}
+
+.location {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.alan-arrow {
+    vertical-align: top;
+    padding-top: 0.5em;
 }
 
 .alan-positions {
+    font-family: 'Inter';
     color: #FFFFFF;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 170%;
 }
 
 .position-tags {
     text-decoration: none;
     color: #929292;
+}
+
+.position-tags:hover {
+    color: #FFFFFF;
+    transition: color 0.4s ease;
 }

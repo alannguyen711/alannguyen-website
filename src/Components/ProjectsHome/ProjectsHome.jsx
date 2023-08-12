@@ -34,8 +34,8 @@ function ProjectsHome() {
   const details = [
     'An interactive employment roadmap for the 501(c)(3) nonprofit, aiding transgender, gender nonconforming and intersex individuals in their job search.',
     'Combining distinguished scholarship, open-access technology, and ethnic studies  to deepen public knowledge about AAPI stories into every classroom.',
-    'An interactive employment roadmap for the 501(c)(3) nonprofit, aiding transgender, gender nonconforming and intersex individuals in their job search.',
-    'An interactive employment roadmap for the 501(c)(3) nonprofit, aiding transgender, gender nonconforming and intersex individuals in their job search.',
+    'Investigating the performance of a support vector machine classifying cells based off single-cell RNA sequencing data with varying class definitions.',
+    'A study plaform speicalized for students with ADHD is designed to help improve their focus, organization, and social skills.',
   ];
   return (
     <div className="entire-projects">

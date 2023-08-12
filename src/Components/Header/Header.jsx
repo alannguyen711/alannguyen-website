@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
-import alanLogo from '../../Assets/alanLogo.svg';
+import alanLogo from '../../Assets/alan-logo.png';
 import GreyArrow from '../../Assets/Icons/grey-arrow.svg';
 import Resume from '../../Assets/AlanNguyen_Resume.pdf';
 
@@ -15,7 +15,7 @@ function Header() {
         <div>
           <Link to="/projects" className="page">PROJECTS</Link>
           {' '}
-          <img src={GreyArrow} alt="grey arrow" />
+          <img src={GreyArrow} alt="grey arrow" className="header-arrow" />
         </div>
         <div>
           <a href={Resume} target="_blank" rel="noopener noreferrer" className="page">RESUME</a>

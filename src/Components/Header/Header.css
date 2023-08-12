@@ -1,4 +1,18 @@
-.entire-container-header {
+@font-face {
+    font-family: 'Inter';
+    src: url('../../Assets/Fonts/Inter-Bold.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('../../Assets/Fonts/Inter-Regular.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .entire-container-header {
     font-size: 1em;
     width: 80%;
     margin: 0 auto;
@@ -9,16 +23,21 @@
     padding-bottom: 1em;
 }
 
+.arrow-header {
+    align-self: flex-start;
+}
+
 .logo {
     justify-self: left;
 }
 
 .alan-logo {
-    width: 4em;
+    width: 3em;
     height: auto;
 }
 
 .pages {
+    font-family: 'Inter';
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -47,5 +66,6 @@
 }
 
 .page:hover {
-    color: #FFCE43;
+    color: #FFFFFF;
+    transition: color 0.4s ease;
 }

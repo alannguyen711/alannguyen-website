@@ -1,20 +1,31 @@
 import React from 'react';
 import './Alan.css';
-import Name from '../../Assets/name.png';
 import GreyArrow from '../../Assets/Icons/grey-arrow.svg';
+import Bridge from '../../Assets/bridge.png';
 
 function Alan() {
   return (
-    <div>
-      <div className="entire-container-main">
-        <img src={Name} alt="Alan Nguyen, software and web developer" className="name" />
+    <div className="entire-container-alan">
+      <div className="me-stuff">
+        <div className="big-name">Alan Nguyen</div>
+        <div className="under-name">
+          is a software developer
+          <br />
+          based in
+          {' '}
+          <span className="location">LA</span>
+          {' '}
+          and the
+          {' '}
+          <span className="location">Bay Area</span>
+        </div>
         <div className="alan-positions">
           Lead Developer at
           <a href="https://transcanwork.org/about-us" className="position-tags">
             {' '}
             TransCanWork
             {' '}
-            <img src={GreyArrow} alt="grey arrow" />
+            <img src={GreyArrow} alt="grey arrow" className="alan-arrow" />
           </a>
         </div>
         <div className="alan-positions">
@@ -23,9 +34,12 @@ function Alan() {
             {' '}
             UCLA AASC
             {' '}
-            <img src={GreyArrow} alt="grey arrow" />
+            <img src={GreyArrow} alt="grey arrow" className="alan-arrow" />
           </a>
         </div>
+      </div>
+      <div className="bridge-stuff">
+        <img src={Bridge} alt="golden gate bridge" className="actual-bridge" />
       </div>
     </div>
   );

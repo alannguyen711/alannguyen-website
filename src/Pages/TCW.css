@@ -1,13 +1,27 @@
 @font-face {
-    font-family: 'Circular';
-    src: url('../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-family: 'Inter';
+    src: url('../Assets/Fonts/Inter-Bold.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'Circular';
-    src: url('../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-family: 'Inter';
+    src: url('../Assets/Fonts/Inter-Regular.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('../Assets/Fonts/OpenSans-Bold.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('../Assets/Fonts/OpenSans-Regular.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: normal;
     font-style: normal;
   }
@@ -37,19 +51,19 @@
   }
 
 .project-basics {
-    font-family: 'Circular';
+    font-family: 'Inter';
     flex-basis: 50%;
 }
 
 .tcw-title {
-    font-family: 'Circular';
+    font-family: 'Open Sans';
     font-size: 2.3em;
     font-weight: 600;
 
 }
 
 .tcw-type {
-    font-family: 'Circular';
+    font-family: 'Inter';
     font-size: 1.4em;
     margin-bottom: 0.7em;
 }
@@ -68,7 +82,7 @@
     justify-content: space-between;
     flex-basis: 50%;
     padding-top: .5em;
-    font-family: 'Circular';
+    font-family: 'Inter';
 }
 
 .top-pair {
@@ -94,7 +108,7 @@
 .tcw-text-section {
     width: 90%;
     margin: 0 auto;
-    font-family: 'Circular';
+    font-family: 'Inter';
 }
 
 .tcw-section-title {

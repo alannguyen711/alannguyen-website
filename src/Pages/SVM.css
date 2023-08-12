@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'Circular';
-    src: url('../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-family: 'Inter';
+    src: url('../Assets/Fonts/Inter-Bold.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: bold;
     font-style: normal;
   }
   
   @font-face {
-    font-family: 'Circular';
-    src: url('../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+    font-family: 'Inter';
+    src: url('../Assets/Fonts/Inter-Regular.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
     font-weight: normal;
     font-style: normal;
   }

@@ -1,13 +1,27 @@
 @font-face {
-  font-family: 'Acumin';
-  src: url('../../Assets/Fonts/Acumin-BdPro.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-family: 'Inter';
+  src: url('../../Assets/Fonts/Inter-Bold.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Acumin';
-  src: url('../../Assets/Fonts/Acumin-RPro.otf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-family: 'Inter';
+  src: url('../../Assets/Fonts/Inter-Regular.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../Assets/Fonts/OpenSans-Bold.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../Assets/Fonts/OpenSans-Regular.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
   font-weight: normal;
   font-style: normal;
 }
@@ -49,17 +63,25 @@ a.card-link {
 
 .proj-name {
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 700;
   padding-bottom: 0.1em;
+  font-family: 'Open Sans';
+  transition: color 0.4s ease;
+}
+
+.proj-name:hover {
+  color: #A8D5FF;
 }
 
 .proj-description {
+  font-family: 'Inter';
   color: #929292 !important;
   font-size: 1.25rem;
 }
 
 .proj-details {
+  font-family: 'Inter';
   color: rgba(255, 255, 255, 0.79);
   padding-top: 0.8em;
   font-size: 1.125rem;
@@ -80,46 +102,3 @@ a.card-link {
   margin-top: 8em;
   height: 4em;
 }
-
-  /* a.card-link {
-    text-decoration: none;
-  }
-
-.entire-card {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Acumin';
-    color: white;
-    text-decoration-color: none;
-    transition: transform .2s;
-}
-
-.card-image {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1.5em;
-}
-
-.entire-card:hover {
-  transform: scale(0.96);
-}
-
-.project-arrow {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: 600;
-    font-size: 1.2em;
-}
-
-.arrow-container {
-  display: flex;
-  text-align: left;
-}
-
-.card-arrow {
-  justify-self: flex-start;
-  width: 1.4em;
-  height: auto;
-} */
