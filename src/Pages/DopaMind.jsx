@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Components/Header/Header';
 import './DopaMind.css';
-import Banner from '../Assets/Banners/DopaMindBanner.png';
+import Banner from '../Assets/ProjectImages/DopaMind.png';
 import Logo from '../Assets/Logos/DopaMindLogo.svg';
 import Transcribble from '../Assets/Screens/DopaMindTranscribble.png';
 import Games from '../Assets/Screens/DopaMindGames.png';
@@ -10,7 +10,7 @@ import Resources from '../Assets/Screens/DopaMindResources.png';
 
 function DopaMind() {
   return (
-    <div>
+    <div className="dm-black">
       <Header />
       <div className="entire-dopamind">
         <img src={Banner} alt="DopaMind banner" className="dopamind-banner" />

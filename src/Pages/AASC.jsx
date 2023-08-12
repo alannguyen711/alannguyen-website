@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../Components/Header/Header';
 import './AASC.css';
-import Banner from '../Assets/Banners/AASCBanner.png';
-import Logo from '../Assets/Logos/AASCLogo.svg';
+import Banner from '../Assets/ProjectImages/aasc.png';
+import Logo from '../Assets/Logos/AASCLogo.png';
 
 function AASC() {
   return (
-    <div>
+    <div className="aasc-black">
       <Header />
       <div className="entire-aasc">
         <img src={Banner} alt="DopaMind banner" className="aasc-banner" />

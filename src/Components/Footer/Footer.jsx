@@ -14,7 +14,15 @@ function Home() {
       </div>
       <div className="footer-links">
         <div>
-          <Link to="/projects" className="footer-page">Projects</Link>
+          <Link
+            to="/projects"
+            className="footer-page"
+            onClick={() => {
+              window.scroll(0, 0);
+            }}
+          >
+            Projects
+          </Link>
           {' '}
           <img src={GreyArrow} alt="grey arrow" />
         </div>
@@ -24,12 +32,28 @@ function Home() {
           <img src={GreyArrow} alt="grey arrow" />
         </div>
         <div>
-          <Link to="/afterhours" className="footer-page">Afterhours</Link>
+          <Link
+            to="/afterhours"
+            className="footer-page"
+            onClick={() => {
+              window.scroll(0, 0);
+            }}
+          >
+            Afterhours
+          </Link>
           {' '}
           <img src={GreyArrow} alt="grey arrow" />
         </div>
         <div>
-          <Link to="/about" className="footer-page">About</Link>
+          <Link
+            to="/about"
+            className="footer-page"
+            onClick={() => {
+              window.scroll(0, 0);
+            }}
+          >
+            About
+          </Link>
           {' '}
           <img src={GreyArrow} alt="grey arrow" />
         </div>

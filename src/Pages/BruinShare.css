@@ -1,16 +1,35 @@
 @font-face {
-    font-family: 'Circular';
-    src: url('../Assets/Fonts/CircularStd-Bold.otf') format('truetype'); /* Adjust the path and font file name accordingly */
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Circular';
-    src: url('../Assets/Fonts/CircularStd-Book.otf') format('truetype'); /* Adjust the path and font file name accordingly */
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'Inter';
+  src: url('../Assets/Fonts/Inter-Bold.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../Assets/Fonts/Inter-Regular.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../Assets/Fonts/OpenSans-Bold.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../Assets/Fonts/OpenSans-Regular.ttf') format('truetype'); /* Adjust the path and font file name accordingly */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bs-black {
+  background-color: #000000;
+  color: #FFFFFF;
+}
 
 .entire-bs {
     width: 80%;
@@ -18,7 +37,7 @@
 }
 
 .bs-banner {
-    width: 90%;
+    max-height: 50vh;
     margin: 0 auto;
     justify-self: center;
     display: flex;
@@ -37,19 +56,19 @@
 }
 
 .project-basics {
-  font-family: 'Circular';
+  font-family: 'Inter';
   flex-basis: 50%;
 }
 
 .bs-title {
-  font-family: 'Circular';
+  font-family: 'Open Sans';
   font-size: 2.3em;
   font-weight: 600;
 
 }
 
 .bs-type {
-  font-family: 'Circular';
+  font-family: 'Inter';
   font-size: 1.4em;
   margin-bottom: 0.7em;
 }
@@ -94,7 +113,7 @@
 .aasc-text-section {
   width: 90%;
   margin: 0 auto;
-  font-family: 'Circular';
+  font-family: 'Inter';
 }
 
 .aasc-section-title {

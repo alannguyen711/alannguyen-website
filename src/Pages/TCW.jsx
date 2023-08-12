@@ -3,13 +3,13 @@ import './TCW.css';
 import Header from '../Components/Header/Header';
 import TCWProfilePage from '../Assets/Screens/TCWProfilePage.png';
 import TCWHomePages from '../Assets/Screens/TCWHomePages.png';
-import Banner from '../Assets/Banners/TCWBanner.png';
+import Banner from '../Assets/ProjectImages/TCW.png';
 import Logo from '../Assets/Logos/TCWLogo.png';
 import Team from '../Assets/Screens/TCWTeam.png';
 
 function TCW() {
   return (
-    <div>
+    <div className="tcw-black">
       <Header />
       <div className="entire-TCW">
         <img src={Banner} alt="TCW banner" className="tcw-banner" />

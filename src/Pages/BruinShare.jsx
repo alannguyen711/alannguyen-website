@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../Components/Header/Header';
 import './BruinShare.css';
-import Banner from '../Assets/Banners/BruinShareBanner.png';
+import Banner from '../Assets/ProjectImages/bruinshare.png';
 import Logo from '../Assets/Logos/BruinShareLogo.png';
 
 function BruinShare() {
   return (
-    <div>
+    <div className="bs-black">
       <Header />
       <div className="entire-bs">
         <img src={Banner} alt="BruinShare banner" className="bs-banner" />

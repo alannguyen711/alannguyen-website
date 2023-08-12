@@ -38,8 +38,8 @@ function Cards({
           </div>
         </div>
       </div>
-      {(name !== 'DopaMind') && (<div className="grey-line-proj" />)}
-      {(name === 'DopaMind') && (<div className="grey-line-proj-last" />)}
+      {(name !== 'Bruin Share') && (<div className="grey-line-proj" />)}
+      {(name === 'Bruin Share') && (<div className="grey-line-proj-last" />)}
 
     </>
 

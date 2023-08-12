@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../Components/Header/Header';
 import './SVM.css';
-import Banner from '../Assets/Banners/SVMBanner.png';
+import Banner from '../Assets/ProjectImages/SVM.png';
 import Logo from '../Assets/Logos/SVMLogo.svg';
 import Poster from '../Assets/Screens/SVMPoster.png';
 
 function SVM() {
   return (
-    <div>
+    <div className="all-black">
       <Header />
       <div className="entire-svm">
         <img src={Banner} alt="SVM banner" className="svm-banner" />

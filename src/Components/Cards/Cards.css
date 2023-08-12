@@ -40,18 +40,18 @@ a.card-link {
 }
 
 .project-image-container {
-  flex-basis: 60%;
+  flex-basis: 63%;
 }
 
 .project-screen {
   width: 100%;
-  max-height: 350px;
+  max-height: 500px;
   object-fit: contain;
 }
 
 .home-project-text {
-  flex-basis: 40%;
-  padding-left: 5em;
+  flex-basis: 37%;
+  padding-left: 4em;
 }
 
 .titular{

@@ -1,16 +1,19 @@
 import React from 'react';
 import './About.css';
 import Header from '../Components/Header/Header';
+import Name from '../Assets/Banners/about-name.png';
 import LinkedIn from '../Assets/Icons/linkedin.svg';
 import Instagram from '../Assets/Icons/instagram.svg';
 import Github from '../Assets/Icons/github.svg';
+import Skills from '../Assets/Screens/skills.png';
+import Technologies from '../Assets/Screens/technologies.png';
 
 function About() {
   return (
-    <div>
+    <div className="about-black">
       <Header />
       <div className="entire-about-container">
-        <div className="name-about">ALAN NGUYEN</div>
+        <div className="name-blue"><img src={Name} alt="Alan Nguyen" className="name-about" /></div>
         <div className="position-about">software developer</div>
         <div className="grey-line-about" />
         <div className="paragraphs-container">
@@ -43,12 +46,15 @@ function About() {
             <div className="paragraph-enter" />
             <div className="skills-technologies">
               <div>
-                <span className="bolded">SKILLS</span>
-                : Python, JavaScript, HTML/CSS, C++, Java, R
+                <img src={Skills} alt="skills" className="skillz" />
+                <br />
+                Python, JavaScript, HTML/CSS, C++, Java, R
               </div>
+              <br />
               <div>
-                <span className="bolded">TECHNOLOGIES</span>
-                : React, Git, Figma, Firebase, Node.js, Linux
+                <img src={Technologies} alt="technologies" className="skillz" />
+                <br />
+                React, Git, Figma, Firebase, Node.js, Linux
               </div>
 
             </div>

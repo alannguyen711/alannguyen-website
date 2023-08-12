@@ -26,13 +26,18 @@
     font-style: normal;
   }
 
+.tcw-black {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
 .entire-TCW {
     width: 80%;
     margin: 0 auto;
 }
 
 .tcw-banner {
-    width: 90%;
+    max-height: 50vh;
     margin: 0 auto;
     justify-self: center;
     display: flex;
