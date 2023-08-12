@@ -32,8 +32,12 @@
 }
 
 .alan-logo {
-    width: 3em;
+    width: 14em;
     height: auto;
+    transition: opacity 0.4s ease;
+}
+.alan-logo:hover {
+    opacity: 0.5; 
 }
 
 .pages {

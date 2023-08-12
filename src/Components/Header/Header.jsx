@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
-import alanLogo from '../../Assets/alan-logo.png';
+import alanLogo from '../../Assets/Logos/signature.png';
 import GreyArrow from '../../Assets/Icons/grey-arrow.svg';
 import Resume from '../../Assets/AlanNguyen_Resume.pdf';
 
