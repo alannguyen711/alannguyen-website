@@ -91,6 +91,7 @@
     text-decoration: none;
     color: white;
     font-weight: 700;
+    transition: color 0.4s ease;
 }
 
 .a-tags:hover {
