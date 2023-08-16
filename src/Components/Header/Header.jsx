@@ -12,24 +12,20 @@ function Header() {
         <Link to="/"><img src={alanLogo} alt="alan nguyen logo" className="alan-logo" /></Link>
       </div>
       <div className="pages">
-        <div>
+        <div className="no-wrapping">
           <Link to="/projects" className="page">PROJECTS</Link>
-          {' '}
           <img src={GreyArrow} alt="grey arrow" className="header-arrow" />
         </div>
-        <div>
+        <div className="no-wrapping">
           <a href={Resume} target="_blank" rel="noopener noreferrer" className="page">RESUME</a>
-          {' '}
           <img src={GreyArrow} alt="grey arrow" />
         </div>
-        <div>
+        <div className="no-wrapping">
           <Link to="/afterhours" className="page">AFTERHOURS</Link>
-          {' '}
           <img src={GreyArrow} alt="grey arrow" />
         </div>
-        <div>
+        <div className="no-wrapping">
           <Link to="/about" className="page">ABOUT</Link>
-          {' '}
           <img src={GreyArrow} alt="grey arrow" />
         </div>
       </div>

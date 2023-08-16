@@ -40,6 +40,10 @@
     opacity: 0.5; 
 }
 
+.no-wrapping {
+    display: flex;
+}
+
 .pages {
     font-family: 'Inter';
     display: flex;
@@ -55,7 +59,7 @@
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .pages {
         flex-direction: column;
         align-items: flex-end;
@@ -67,6 +71,7 @@
     text-decoration: none;
     color: #929292;
     font-size: 0.93rem;
+    padding-right: 0.2em;
 }
 
 .page:hover {
