@@ -30,7 +30,7 @@ function Alan() {
         </div>
         <div className="alan-positions">
           Frontend Engineer at
-          <a href="https://transcanwork.org/about-us" className="position-tags">
+          <a href="https://www.aasc.ucla.edu/textbook/" className="position-tags">
             {' '}
             UCLA AASC
             {' '}
