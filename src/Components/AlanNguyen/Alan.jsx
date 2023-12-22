@@ -20,10 +20,10 @@ function Alan() {
           <span className="location">Bay Area</span>
         </div>
         <div className="alan-positions">
-          Lead Developer at
-          <a href="https://transcanwork.org/about-us" className="position-tags">
+          Mobile Developer at
+          <a href="https://idontmind.com/" className="position-tags">
             {' '}
-            TransCanWork
+            IDONTMIND
             {' '}
             <img src={GreyArrow} alt="grey arrow" className="alan-arrow" />
           </a>

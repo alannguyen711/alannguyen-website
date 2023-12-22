@@ -54,6 +54,13 @@
     width: 40%;
   }
 
+@media (max-width: 600px) {
+    .name-about {
+        padding-top: 8em;
+        width: 100%;
+      }
+}
+
 .position-about {
     font-family: 'Inter';
     font-size: 2em;
@@ -80,6 +87,12 @@
 .skills-technologies {
     margin-left: 2em;
     line-height: 170%;
+}
+
+@media (max-width: 600px) {
+    .skills-technologies {
+        margin-left: 0;
+    }
 }
 
 .bolded {
@@ -112,12 +125,25 @@
     margin-bottom: 4em;
 }
 
+@media (max-width: 600px) {
+    .grey-line-about {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+}
+
 .contact-container {
     width: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .contact-container {
+        flex-direction: column;
+    }
 }
 
 .contact {
@@ -135,10 +161,24 @@
     width: auto;
 }
 
+@media (max-width: 600px) {
+    .icons-row {
+        width: 80%;
+        padding-top: 2em;
+    }
+}
+
 .icons {
     height: 1.5em;
     padding-right: 4em;
     padding-left: 4em;
+}
+
+@media (max-width: 600px) {
+    .icons {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .icons:hover {

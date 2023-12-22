@@ -17,3 +17,10 @@
   margin-top: 7em;
   height: 8em;
 }
+
+@media (max-width: 600px) {
+  .grey-line-home {
+    margin-top: 4em;
+    height: 5em;
+  }
+}

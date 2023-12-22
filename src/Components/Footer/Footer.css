@@ -34,6 +34,12 @@
     padding-bottom: 3em;
 }
 
+@media (max-width: 600px) {
+  .Footer {
+    flex-direction: column;
+  }
+}
+
 .signature {
     width: 12em;
 }
@@ -49,6 +55,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+@media (max-width: 600px) {
+  .footer-links {
+    display: none;
+  }
 }
 
 .footer-page {
