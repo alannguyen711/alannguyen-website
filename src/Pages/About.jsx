@@ -27,12 +27,13 @@ function About() {
             </div>
             <div className="paragraph-enter" />
             <div>
-              I’m currently the developer lead for the 501(c)(3) nonprofit
-              <a href="https://transcanwork.org/about-us" className="a-tags"> TransCanWork </a>
-              and a frontend developer for UCLA’s
+              I’m currently a mobile developer for the 501(c)(3) nonprofit
+              <a href="https://idontmind.com/" className="a-tags"> IDONTMIND </a>
+              and a frontend engineer for UCLA’s
               <a href="https://www.aasc.ucla.edu/" className="a-tags"> Asian American Studies Center</a>
-              . I’m excited to be creating applications that uplift transgender, gender-diverse
-              and intersex jobseekers and deepen the public understanding of Asian American
+              . I’m excited to be creating applications that inpsire conversations and
+              provide education about mental health
+              and deepen the public understanding of Asian American
               and Pacific Islander lives. I&apos;m currently in search of full-time positions in
               Software Engineering, Data Science and Technical Product Management.
             </div>
