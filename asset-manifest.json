@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7f57e19e.css",
-    "main.js": "/static/js/main.85d793e1.js",
+    "main.css": "/static/css/main.3c5fe25d.css",
+    "main.js": "/static/js/main.3b533832.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/afterhours.png": "/static/media/afterhours.e91bd6eccf5b278247bf.png",
     "static/media/TCWTeam.png": "/static/media/TCWTeam.1f8069e372f37b59ea08.png",
@@ -25,6 +25,7 @@
     "static/media/bridge.png": "/static/media/bridge.82e8fc8708d3edd9f0b8.png",
     "static/media/AASCLogo.png": "/static/media/AASCLogo.f4adac3dc3a725e9990f.png",
     "static/media/about-name.png": "/static/media/about-name.79d345442a520c8cd779.png",
+    "static/media/EpicLogo.png": "/static/media/EpicLogo.d622164b2928dbc9594b.png",
     "static/media/TCWLogo.png": "/static/media/TCWLogo.02b21d672b8dd1a3a82d.png",
     "static/media/signature.png": "/static/media/signature.8417f1ecffed8df2b537.png",
     "static/media/technologies.png": "/static/media/technologies.ec888b327a22f2005a30.png",
@@ -37,12 +38,12 @@
     "index.html": "/index.html",
     "static/media/grey-arrow.svg": "/static/media/grey-arrow.ca9844a9b9f68fdf92e444738620a545.svg",
     "static/media/arrow.svg": "/static/media/arrow.db1a374e3c46d6ca9c4bf5a4480411f3.svg",
-    "main.7f57e19e.css.map": "/static/css/main.7f57e19e.css.map",
-    "main.85d793e1.js.map": "/static/js/main.85d793e1.js.map",
+    "main.3c5fe25d.css.map": "/static/css/main.3c5fe25d.css.map",
+    "main.3b533832.js.map": "/static/js/main.3b533832.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f57e19e.css",
-    "static/js/main.85d793e1.js"
+    "static/css/main.3c5fe25d.css",
+    "static/js/main.3b533832.js"
   ]
 }
