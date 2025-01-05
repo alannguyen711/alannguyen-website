@@ -2,6 +2,7 @@ import React from 'react';
 import './Alan.css';
 import GreyArrow from '../../Assets/Icons/grey-arrow.svg';
 import Bridge from '../../Assets/bridge.png';
+import Epic from '../../Assets/Logos/EpicLogo.png';
 
 function Alan() {
   return (
@@ -9,39 +10,57 @@ function Alan() {
       <div className="me-stuff">
         <div className="big-name">Alan Nguyen</div>
         <div className="under-name">
-          is a software developer
+          technical solutions
           <br />
-          based in
+          engineer @
           {' '}
-          <span className="location">LA</span>
-          {' '}
-          and the
-          {' '}
-          <span className="location">Bay Area</span>
+          {/* <span className="location">Epic Systems</span> */}
+          <img src={Epic} alt="epic logo" className="epic-logo" />
         </div>
         <div className="alan-positions">
-          Mobile Developer at
-          <a href="https://idontmind.com/" className="position-tags">
+          data science + computational systems alum @
+          <a href="https://www.ucla.edu/" className="position-tags">
             {' '}
-            IDONTMIND
+            UCLA
             {' '}
             <img src={GreyArrow} alt="grey arrow" className="alan-arrow" />
           </a>
         </div>
         <div className="alan-positions">
-          Frontend Engineer at
-          <a href="https://www.aasc.ucla.edu/textbook/" className="position-tags">
-            {' '}
-            UCLA AASC
-            {' '}
-            <img src={GreyArrow} alt="grey arrow" className="alan-arrow" />
-          </a>
+          Currently seeking new opportunities — let&apos;s connect!
         </div>
       </div>
       <div className="bridge-stuff">
         <img src={Bridge} alt="golden gate bridge" className="actual-bridge" />
       </div>
     </div>
+    // <div className="entire-container-alan">
+    //   <div className="me-stuff">
+    //     <div className="big-name">Alan Nguyen</div>
+    //     <div className="under-name">
+    //       computational systems +
+    //       <br />
+    //       data science alum @
+    //       {' '}
+    //       <span className="location">UCLA</span>
+    //     </div>
+    //     <div className="alan-positions">
+    //       Technical Solutions Engineer @
+    //       <a href="https://www.epic.com/careeverywhere/?searchText=" className="position-tags">
+    //         {' '}
+    //         Epic Systems
+    //         {' '}
+    //         <img src={GreyArrow} alt="grey arrow" className="alan-arrow" />
+    //       </a>
+    //     </div>
+    //     <div className="alan-positions">
+    //       Currently seeking full time roles — let&apos;s connect!
+    //     </div>
+    //   </div>
+    //   <div className="bridge-stuff">
+    //     <img src={Bridge} alt="golden gate bridge" className="actual-bridge" />
+    //   </div>
+    // </div>
   );
 }
 

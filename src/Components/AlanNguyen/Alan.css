@@ -115,3 +115,10 @@
     color: #FFFFFF;
     transition: color 0.4s ease;
 }
+
+.epic-logo {
+    position: relative;
+    top: 12px;
+    height: 1.2em;
+    justify-content: flex-end;
+}
