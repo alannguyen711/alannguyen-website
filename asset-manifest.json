@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3c5fe25d.css",
-    "main.js": "/static/js/main.3bc073ce.js",
+    "main.js": "/static/js/main.ea800d21.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/afterhours.png": "/static/media/afterhours.e91bd6eccf5b278247bf.png",
     "static/media/TCWTeam.png": "/static/media/TCWTeam.1f8069e372f37b59ea08.png",
@@ -19,7 +19,7 @@
     "static/media/DopaMindTranscribble.png": "/static/media/DopaMindTranscribble.c7afee7731aaf459b8a2.png",
     "static/media/DopaMindResources.png": "/static/media/DopaMindResources.c64678aaed7b628dfce8.png",
     "static/media/SVM.png": "/static/media/SVM.c15ff94ed8d7640ba1bc.png",
-    "static/media/AlanNguyen_Resume.pdf": "/static/media/AlanNguyen_Resume.e2edacd370d10418399b.pdf",
+    "static/media/AlanNguyen_Resume.pdf": "/static/media/AlanNguyen_Resume.e618c88be1181cc6929e.pdf",
     "static/media/OpenSans-Bold.ttf": "/static/media/OpenSans-Bold.45847e90261782dc01a6.ttf",
     "static/media/OpenSans-Regular.ttf": "/static/media/OpenSans-Regular.9a6cfa5890d7f3eef585.ttf",
     "static/media/bridge.png": "/static/media/bridge.82e8fc8708d3edd9f0b8.png",
@@ -39,11 +39,11 @@
     "static/media/grey-arrow.svg": "/static/media/grey-arrow.ca9844a9b9f68fdf92e444738620a545.svg",
     "static/media/arrow.svg": "/static/media/arrow.db1a374e3c46d6ca9c4bf5a4480411f3.svg",
     "main.3c5fe25d.css.map": "/static/css/main.3c5fe25d.css.map",
-    "main.3bc073ce.js.map": "/static/js/main.3bc073ce.js.map",
+    "main.ea800d21.js.map": "/static/js/main.ea800d21.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c5fe25d.css",
-    "static/js/main.3bc073ce.js"
+    "static/js/main.ea800d21.js"
   ]
 }
